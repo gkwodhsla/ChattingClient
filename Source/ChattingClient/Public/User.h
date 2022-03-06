@@ -7,6 +7,7 @@
 #include "User.generated.h"
 
 class ULoginWidget;
+class USocketComponent;
 
 UCLASS()
 class CHATTINGCLIENT_API AUser : public AActor
@@ -34,4 +35,6 @@ private:
 	TSubclassOf<UUserWidget> LoginWidgetClass;
 	UPROPERTY()
 	UUserWidget* LoginWidget = nullptr;
+	UPROPERTY()
+	USocketComponent* SockComp = nullptr;
 };

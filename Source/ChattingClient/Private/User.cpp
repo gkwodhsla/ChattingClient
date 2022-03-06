@@ -3,6 +3,7 @@
 
 #include "User.h"
 #include "LoginWidget.h"
+#include "SocketComponent.h"
 #include "Components/Button.h"
 #include "Components/EditableTextBox.h"
 #include "Kismet/GameplayStatics.h"
@@ -20,10 +21,8 @@ AUser::AUser()
 
 		LoginWidget = CreateWidget(GetWorld(), LoginWidgetClass);
 	}
-	else
-	{
-		
-	}
+
+	SockComp = CreateDefaultSubobject<USocketComponent>(TEXT("SockComp"));
 }
 
 // Called when the game starts or when spawned
@@ -49,7 +48,6 @@ void AUser::BeginPlay()
 void AUser::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AUser::LoginButtonClickedCallback()
