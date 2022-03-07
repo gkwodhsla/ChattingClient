@@ -4,25 +4,23 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "RoomListWidget.generated.h"
+#include "CreateRoomWindowWidget.generated.h"
 
-/**
- * 
- */
-class UScrollBox;
+class UEditableTextBox;
 class UButton;
+
 UCLASS()
-class CHATTINGCLIENT_API URoomListWidget : public UUserWidget
+class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget
 {
 	GENERATED_BODY()
-	
-	UPROPERTY(meta = (BindWidget))
-	UScrollBox* ChattingRoomScrollBox = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UButton* RoomJoinButton = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UButton* RoomCreateButton = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UButton* ExitButton = nullptr;
 
+public:
+	UPROPERTY(meta = (BindWidget))
+	UEditableTextBox* ParticipantsTextBox = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UEditableTextBox* RoomNameTextBox = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UButton* CreateButton = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UButton* CancelButton = nullptr;
 };

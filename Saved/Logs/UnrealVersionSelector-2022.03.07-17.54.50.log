@@ -287,3 +287,43 @@ ProgressWriter.Write: @progress 'Binding IntelliSense data...' 100%
 Log.PushStatus: Writing project files...
 ProgressWriter.Write: @progress 'Writing project files...' 0%
 ProgressWriter.Write: @progress 'Writing project files...' 33%
+ProgressWriter.Write: @progress 'Writing project files...' 67%
+ProgressWriter.Write: @progress 'Writing project files...' 100%
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.032) <unknown>
+Timeline.Print: [ 0.032](+0.163) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.195](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.195](+0.098) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.196          [ 0.000](+0.064) Initializing InstalledPlatformInfo
+Timeline.Print:   0.260          [ 0.065](+0.000) Querying types
+Timeline.Print:   0.262          [ 0.066](+0.001) MacPlatformFactory
+Timeline.Print:   0.263          [ 0.068](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.263          [ 0.068](+0.015) AndroidPlatformFactory
+Timeline.Print:   0.279          [ 0.084](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.280          [ 0.084](+0.008) IOSPlatformFactory
+Timeline.Print:   0.288          [ 0.093](+0.004) LinuxPlatformFactory
+Timeline.Print:   0.292          [ 0.097](+0.000) LuminPlatformFactory
+Timeline.Print:   0.293          [ 0.097](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.294](+1.643) <unknown>
+Timeline.Print: [ 1.937](+0.002) Finding engine modules
+Timeline.Print: [ 1.940](+0.002) Finding plugin modules
+Timeline.Print: [ 1.942](+0.308) <unknown>
+Timeline.Print: [ 2.250](+0.000) Finding program modules
+Timeline.Print: [ 2.251](+0.000) Finding program targets
+Timeline.Print: [ 2.251](+0.085) <unknown>
+Timeline.Print: [ 2.336](+0.337) Compiling rules assembly (ChattingClientModuleRules.dll)
+Timeline.Print: [ 2.673](+1.273) <unknown>
+Timeline.Print: [ 3.946](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 3.947](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 3.955](+0.006) UEBuildTarget constructor
+Timeline.Print: [ 3.962](+1.362) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.324](+4.565) <unknown>
+Timeline.Print: [ 9.889](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 9.889](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 9.895](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 9.895](+0.250) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [10.146](+2.784) <unknown>
+Timeline.Print: [12.930](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [12.932]

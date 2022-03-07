@@ -6,18 +6,26 @@
 #include "Blueprint/UserWidget.h"
 #include "LobbyWidget.generated.h"
 
-class UChattingWindowWidget;
+class UButton;
+class UWidgetSwitcher;
 class UUserListWidget;
+class UCreateRoomWindowWidget;
+class USendMailWindowWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API ULobbyWidget : public UUserWidget
 {
 	GENERATED_BODY()
-
+	
 public:
 	UPROPERTY(meta = (BindWidget))
-	UChattingWindowWidget* ChattingWindow = nullptr;
-
+	UWidgetSwitcher* LobbyWidgetSwitcher = nullptr;
 	UPROPERTY(meta = (BindWidget))
-	UUserListWidget* UserListWindow = nullptr;
+	UUserListWidget* UserListScroll = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UUserListWidget* RoomListScroll = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UCreateRoomWindowWidget* CreateRoomWindow = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	USendMailWindowWidget* SendMailWindow = nullptr;
 };

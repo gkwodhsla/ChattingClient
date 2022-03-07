@@ -17,6 +17,4 @@ class CHATTINGCLIENT_API UUserListWidget : public UUserWidget
 public:
 	UPROPERTY(meta = (BindWidget))
 	UScrollBox* UserScrollBox = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UEditableTextBox* SearchNameTextBox = nullptr;
 };
