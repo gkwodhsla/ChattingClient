@@ -1,3 +1,4 @@
-/.vs
-/Binaries
-/Intermediate
+.vs/
+Binaries/
+Intermediate/
+DerivedDataCache/
