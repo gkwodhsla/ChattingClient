@@ -8,6 +8,7 @@
 
 class UEditableTextBox;
 class UButton;
+class AUser;
 
 UCLASS()
 class CHATTINGCLIENT_API USendMailWindowWidget : public UUserWidget
@@ -15,10 +16,10 @@ class CHATTINGCLIENT_API USendMailWindowWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	void NativeConstruct()override;
+
 	UFUNCTION()
 	void SendButtonClickedCallback();
-	UFUNCTION()
-	void CancelButtonClickedCallback();
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -27,6 +28,6 @@ public:
 	UEditableTextBox* MessageTextBox = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UButton* SendButton = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UButton* CancelButton = nullptr;
+	UPROPERTY()
+	AUser* User = nullptr;
 };
