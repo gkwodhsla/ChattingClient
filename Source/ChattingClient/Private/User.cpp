@@ -45,6 +45,14 @@ AUser::AUser()
 		UserSpecificInfoWindowWidgetClass = UserSpecificInfoWindowWidgetBP.Class;
 	}
 
+
+	static ConstructorHelpers::FClassFinder<UUserWidget> RoomInfoWindowWidgetBP
+	(TEXT("WidgetBlueprint'/Game/WidgetBP/WBP_RoomInfo.WBP_RoomInfo_C'"));
+	if (RoomInfoWindowWidgetBP.Succeeded())
+	{
+		RoomInfoWidgetClass = RoomInfoWindowWidgetBP.Class;
+	}
+
 	SockComp = CreateDefaultSubobject<USocketComponent>(TEXT("SockComp"));
 }
 
@@ -78,33 +86,21 @@ void AUser::SendMsg(const FString& Msg)
 	SockComp->SendMsg(Msg);
 }
 
-
-void AUser::AddLobbyCallbackFunction()
-{
-	//ULobbyWidget* lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
-	//lobbyWidget->UserListButton->OnClicked.AddDynamic(lobbyWidget, &ULobbyWidget::UserListButtonClickedCallback);
-	//lobbyWidget->RoomListButton->OnClicked.AddDynamic(lobbyWidget, &ULobbyWidget::RoomListButtonClickedCallback);
-	//lobbyWidget->CreateRoomButton->OnClicked.AddDynamic(lobbyWidget, &ULobbyWidget::CreateRoomButtonClickedCallback);
-	//lobbyWidget->SendMailButton->OnClicked.AddDynamic(lobbyWidget, &ULobbyWidget::SendMailButtonClickedCallback);
-	//lobbyWidget->ExitButton->OnClicked.AddDynamic(lobbyWidget, &ULobbyWidget::ExitButtonClickedCallback);
-
-	//lobbyWidget->SendMailWindow->SendButton->OnClicked.
-	//	AddDynamic(lobbyWidget->SendMailWindow, &USendMailWindowWidget::SendButtonClickedCallback);
-	//lobbyWidget->SendMailWindow->CancelButton->OnClicked.
-	//	AddDynamic(lobbyWidget->SendMailWindow, &USendMailWindowWidget::CancelButtonClickedCallback);
-
-	//lobbyWidget->CreateRoomWindow->CreateButton->OnClicked.
-	//	AddDynamic(lobbyWidget->CreateRoomWindow, &UCreateRoomWindowWidget::CreateButtonClickedCallback);
-	//lobbyWidget->CreateRoomWindow->CancelButton->OnClicked.
-	//	AddDynamic(lobbyWidget->CreateRoomWindow, &UCreateRoomWindowWidget::CancelButtonClickedCallback);
-}
-
 void AUser::CallLobbyWidgetUserInfo(const std::vector<std::string>& UserList)
 {
 	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
 	if (lobbyWidget)
 	{
 		lobbyWidget->ShowUserInfoList(UserList);
+	}
+}
+
+void AUser::CallLobbyWidgetRoomInfo(const std::vector<std::string>& UserList)
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->ShowRoomList(UserList);
 	}
 }
 

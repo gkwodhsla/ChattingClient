@@ -12,6 +12,7 @@ class ULoginWidget;
 class USocketComponent;
 class UUserInfoWidget;
 class UUserSpecificInfoWindowWidget;
+class URoomInfoWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API AUser : public AActor
@@ -35,10 +36,8 @@ public:
 	void SendMsg(const FString& Msg);
 	
 	void CallLobbyWidgetUserInfo(const std::vector<std::string>& UserList);
+	void CallLobbyWidgetRoomInfo(const std::vector<std::string>& UserList);
 	void CallLobbyWidgetUserSpecificInfo(const std::vector<std::string>& UserList);
-
-private:
-	void AddLobbyCallbackFunction();
 
 public:
 	UPROPERTY()
@@ -55,4 +54,6 @@ public:
 	TSubclassOf<UUserInfoWidget> UserInfoWidgetClass;
 	UPROPERTY()
 	TSubclassOf<UUserSpecificInfoWindowWidget> UserSpecificInfoWindowWidgetClass;
+	UPROPERTY()
+	TSubclassOf<URoomInfoWidget> RoomInfoWidgetClass;
 };

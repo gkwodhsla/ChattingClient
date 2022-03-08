@@ -45,6 +45,7 @@ protected:
 
 public:
 	void ShowUserInfoList(const std::vector<std::string>& UserList);
+	void ShowRoomList(const std::vector<std::string>& RoomList);
 	void ShowUserSpecificInfo(const std::vector<std::string>& UserList);
 
 public:
@@ -74,4 +75,5 @@ public:
 	AUser* User = nullptr;
 
 	TArray<UUserWidget*> UserListWidgets;
+	TArray<UUserWidget*> RoomListWidgets;
 };

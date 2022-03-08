@@ -12,6 +12,7 @@
 #include "UserListWidget.h"
 #include "UserInfoWidget.h"
 #include "UserSpecificInfoWindowWidget.h"
+#include "RoomInfoWidget.h"
 
 void ULobbyWidget::NativeConstruct()
 {
@@ -37,6 +38,9 @@ void ULobbyWidget::UserListButtonClickedCallback()
 void ULobbyWidget::RoomListButtonClickedCallback()
 {
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(ROOM_LIST_INDEX);
+	
+	User->SendMsg("lt");
+	//방 정보를 달라고 서버에 요청합니다.
 	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "RoomListButtonClicked");
 }
 void ULobbyWidget::CreateRoomButtonClickedCallback()
@@ -51,6 +55,7 @@ void ULobbyWidget::SendMailButtonClickedCallback()
 }
 void ULobbyWidget::ExitButtonClickedCallback()
 {
+	User->SendMsg("x");
 	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "ExitButtonClicked");
 }
 //소켓쪽에서 로비위젯의 함수를 호출해준다!
@@ -88,4 +93,26 @@ void ULobbyWidget::ShowUserSpecificInfo(const std::vector<std::string>& UserList
 		specificInfoWidget->InfoText->SetText(FText::FromString(UserList[1].c_str()));
 		specificInfoWidget->AddToViewport();
 	}
+}
+
+void ULobbyWidget::ShowRoomList(const std::vector<std::string>& RoomList)
+{
+	for (int i = 0; i < RoomListWidgets.Num(); ++i)
+	{
+		RoomListScroll->UserScrollBox->RemoveChild(RoomListWidgets[i]);
+	}
+	RoomListWidgets.Reset();
+	//새로운 정보를 붙이기 전에 기존 정보를 전부 제거합니다.
+
+	for (int i = 1; i < RoomList.size(); ++i)
+	{
+		RoomListWidgets.Add(CreateWidget(GetWorld(), User->RoomInfoWidgetClass));
+		auto newRoomInfo = Cast<URoomInfoWidget>(RoomListWidgets.Top());
+		if (newRoomInfo)
+		{
+			newRoomInfo->RoomInfoText->SetText(FText::FromString(RoomList[i].c_str()));
+			RoomListScroll->UserScrollBox->AddChild(newRoomInfo);
+		}
+	}
+	//0번 인덱스는 ------RoomList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
 }
