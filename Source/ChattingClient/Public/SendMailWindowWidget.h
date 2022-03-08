@@ -15,6 +15,12 @@ class CHATTINGCLIENT_API USendMailWindowWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	UFUNCTION()
+	void SendButtonClickedCallback();
+	UFUNCTION()
+	void CancelButtonClickedCallback();
+
+public:
 	UPROPERTY(meta = (BindWidget))
 	UEditableTextBox* ToTextBox = nullptr;
 	UPROPERTY(meta = (BindWidget))

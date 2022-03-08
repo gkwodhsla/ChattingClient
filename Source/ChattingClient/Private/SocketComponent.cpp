@@ -44,16 +44,60 @@ void USocketComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	int32 bytesRead = 0;
+	char data[1024];
+	memset(data, '\0', 1024);
+	Socket->Recv((uint8*)data, 1024, bytesRead);
+	FString str(data);
+	UE_LOG(LogTemp, Log, TEXT("%s"), *str);
+	ProcessingSend();
 	//int32 bytesRead = 0;
 	//Socket->Recv((uint8*)data, 1024, bytesRead);
 	//if (bytesRead > 0)
 	//{
 	//	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, data);
 	//}
-	//데이터, 버퍼 사이즈, 실제로 읽은 바이트 수, 플래그
-	//0을 반환 시 수신 버퍼에 데이터가 없음을 의미한다.
-
-	//여기서 계속 send, recv를 수행한다.
-	//send는 우리의 서버와 동일하게 큐에 넣고 계속 보내기!
 }
 
+void USocketComponent::SendMsg(const FString& Msg)
+{
+	UE_LOG(LogTemp, Log, TEXT("SendMsg: %s"), *Msg);
+
+	FSendBuffer newMsg;
+	newMsg.LeftPos = 0;
+	newMsg.RightPos = Msg.Len() + 1;
+	for (int i = 0; i < Msg.Len(); ++i)
+	{
+		newMsg.Buffer[i] = Msg[i];
+	}
+	newMsg.Buffer[Msg.Len()] = '\n';
+	newMsg.Buffer[Msg.Len() + 1] = '\0';
+	SendQ.Enqueue(newMsg);
+}
+
+void USocketComponent::ProcessingRecv()
+{
+
+}
+
+void USocketComponent::ProcessingSend()
+{
+	while (!SendQ.IsEmpty())
+	{
+		int32 sendingSize = 0;
+		FSendBuffer buffer;
+		SendQ.Peek(buffer);
+
+		Socket->Send((uint8*)buffer.Buffer.GetData() + buffer.LeftPos, 
+			buffer.RightPos - buffer.LeftPos, sendingSize);
+		FString str(buffer.Buffer.GetData());
+		UE_LOG(LogTemp, Log, TEXT("Send: %s"), *str);
+		buffer.LeftPos += sendingSize;
+		if (buffer.LeftPos == buffer.RightPos) //만약 데이터 송신이 성공했다면
+		{
+			SendQ.Pop(); //큐에서 빼내고 다음 데이터를 송신합니다.
+			continue;
+		}
+		break;
+	}
+}

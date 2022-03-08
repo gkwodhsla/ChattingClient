@@ -15,6 +15,12 @@ class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	UFUNCTION()
+	void CreateButtonClickedCallback();
+	UFUNCTION()
+	void CancelButtonClickedCallback();
+
+public:
 	UPROPERTY(meta = (BindWidget))
 	UEditableTextBox* ParticipantsTextBox = nullptr;
 	UPROPERTY(meta = (BindWidget))

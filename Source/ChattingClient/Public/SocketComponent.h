@@ -36,6 +36,11 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+public:
+	void SendMsg(const FString& Msg);
+	void ProcessingRecv();
+	void ProcessingSend();
+
 private:
 	FSocket* Socket = nullptr;
 	TStaticArray<char, MAX_BUFFER_SIZE> ReadBuffer;

@@ -31,10 +31,18 @@ public:
 	void LoginButtonClickedCallback();
 
 private:
+	void AddLobbyCallbackFunction();
+
+public:
 	UPROPERTY()
 	TSubclassOf<UUserWidget> LoginWidgetClass;
 	UPROPERTY()
 	UUserWidget* LoginWidget = nullptr;
+	UPROPERTY()
+	TSubclassOf<UUserWidget> LobbyWidgetClass;
+	UPROPERTY()
+	UUserWidget* LobbyWidget = nullptr;
+
 	UPROPERTY()
 	USocketComponent* SockComp = nullptr;
 };
