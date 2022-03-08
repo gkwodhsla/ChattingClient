@@ -42,7 +42,6 @@ public:
 	TSubclassOf<UUserWidget> LobbyWidgetClass;
 	UPROPERTY()
 	UUserWidget* LobbyWidget = nullptr;
-
 	UPROPERTY()
 	USocketComponent* SockComp = nullptr;
 };

@@ -66,6 +66,8 @@ void AUser::LoginButtonClickedCallback()
 	FText text = Cast<ULoginWidget>(LoginWidget)->LoginTextBox->GetText();
 	FString msg = "login " + text.ToString();
 	SockComp->SendMsg(msg);
+	LoginWidget->RemoveFromViewport();
+	LobbyWidget->AddToViewport();
 	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, text.ToString());
 }
 
