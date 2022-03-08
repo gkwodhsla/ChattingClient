@@ -6,8 +6,6 @@
 #include "GameFramework/GameModeBase.h"
 #include "ChattingClientGameModeBase.generated.h"
 
-class AUser;
-
 UCLASS()
 class CHATTINGCLIENT_API AChattingClientGameModeBase : public AGameModeBase
 {
@@ -15,7 +13,4 @@ class CHATTINGCLIENT_API AChattingClientGameModeBase : public AGameModeBase
 	
 public:
 	virtual void BeginPlay() override;
-
-public:
-	AUser* User;
 };

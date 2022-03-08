@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include <vector>
+#include <string>
 #include "LobbyWidget.generated.h"
 
 const int BACKGROUND_IMG_INDEX = 0;
@@ -18,12 +20,18 @@ class UUserListWidget;
 class UCreateRoomWindowWidget;
 class USendMailWindowWidget;
 
+class AUser;
+
+class UUserInfoWidget;
+
 UCLASS()
 class CHATTINGCLIENT_API ULobbyWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
-public:
+protected:
+	void NativeConstruct() override;
+
 	UFUNCTION()
 	void UserListButtonClickedCallback();
 	UFUNCTION()
@@ -34,6 +42,10 @@ public:
 	void SendMailButtonClickedCallback();
 	UFUNCTION()
 	void ExitButtonClickedCallback();
+
+public:
+	void ShowUserInfoList(const std::vector<std::string>& UserList);
+	void ShowUserSpecificInfo(const std::vector<std::string>& UserList);
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -58,4 +70,8 @@ public:
 	UPROPERTY(meta = (BindWidget))
 	UButton* ExitButton = nullptr;
 
+	UPROPERTY()
+	AUser* User = nullptr;
+
+	TArray<UUserWidget*> UserListWidgets;
 };

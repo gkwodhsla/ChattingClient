@@ -3,6 +3,7 @@
 #include "Components/ActorComponent.h"
 #include <string>
 #include <vector>
+#include <queue>
 #include "SocketComponent.generated.h"
 
 class FSocket;
@@ -11,6 +12,9 @@ const int32 MAX_BUFFER_SIZE = 1024;
 const int32 ADDITIONAL_PACKET_SIZE = 2;
 //텔넷 클라이언트와 메시지 양식을 통일하기 위해서
 //요청한 메시지에 추가적으로 \r\n문자를 붙여줍니다.
+const std::string USER_LIST_COMMAND = "UserList";
+const std::string USER_INFO_COMMAND = "UserInfo";
+
 
 const char END_SIGN = '\f';
 //서버->클라이언트 엔드 사인으로 \f를 사용합니다.
@@ -39,6 +43,7 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 public:	
 	// Called every frame
@@ -48,11 +53,15 @@ public:
 	void SendMsg(const FString& Msg);
 	void ProcessingRecv();
 	void ProcessingSend();
+
+public:
+	static std::vector<std::string> Tokenizing(const std::string& Str, const char Delimiter);
+
 	
 private:
+	void ShowUserInfo();
 	void EndGame();
 	void ProcessingPacket(const std::string& Packet);
-	std::vector<std::string> Tokenizing(const std::string& Str, const char Delimiter);
 
 private:
 	FSocket* Socket = nullptr;

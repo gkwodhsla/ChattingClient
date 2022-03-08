@@ -8,17 +8,25 @@
 
 class UEditableTextBox;
 class UButton;
+class AUser;
 
 UCLASS()
 class CHATTINGCLIENT_API ULoginWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+protected:
+	void NativeConstruct()override;
+	UFUNCTION()
+	void LoginButtonClickedCallback();
+
 public:
 	UPROPERTY(meta = (BindWidget))
 	UEditableTextBox* LoginTextBox = nullptr;
 
 	UPROPERTY(meta = (BindWidget))
 	UButton* LoginButton = nullptr;
-
+	
+	UPROPERTY()
+	AUser* User;
 };

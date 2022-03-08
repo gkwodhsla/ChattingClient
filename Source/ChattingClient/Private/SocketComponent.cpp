@@ -4,6 +4,7 @@
 #include "SocketSubsystem.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "User.h"
 #include <algorithm>
 #include <sstream>
 // Sets default values for this component's properties
@@ -11,7 +12,7 @@ USocketComponent::USocketComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
+	PrimaryComponentTick.bCanEverTick = false;
 	Socket = nullptr;
 	memset(RecvBuffer.GetData(), '\0', MAX_BUFFER_SIZE);
 	RecvRightPos = 0;
@@ -41,14 +42,19 @@ void USocketComponent::BeginPlay()
 	}
 }
 
+void USocketComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+	Socket->Close();
+}
 
 // Called every frame
 void USocketComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	ProcessingRecv();
-	ProcessingSend();
+	//ProcessingRecv();
+	//ProcessingSend();
 }
 
 void USocketComponent::SendMsg(const FString& Msg)
@@ -105,7 +111,6 @@ void USocketComponent::ProcessingRecv()
 	}
 	//모든 패킷을 정상처리했을 경우 버퍼와 RecvRightPos를 초기화시킵니다.
 }
-//서버에서도 메시지를 보낼 때 엔드 사인으로 '\n'을 사용합니다.
 
 void USocketComponent::ProcessingSend()
 {
@@ -144,8 +149,29 @@ void USocketComponent::ProcessingPacket(const std::string& Packet)
 {
 	FString msg(Packet.c_str());
 	UE_LOG(LogTemp, Log, TEXT("From Server: %s"), *msg);
-	//각각의 패킷마다 적절한 함수를 호출해 명령어를 처리합니다.
 
+	auto tokens = Tokenizing(Packet, '\n');
+	if (Packet.find(USER_LIST_COMMAND) != std::string::npos)
+	{
+		auto user = Cast<AUser>(GetOwner());
+		if (user)
+		{
+			user->CallLobbyWidgetUserInfo(tokens);
+		}
+		UE_LOG(LogTemp, Log, TEXT("Find UserList inst"));
+	}
+	else if (Packet.find(USER_INFO_COMMAND) != std::string::npos)
+	{
+		auto user = Cast<AUser>(GetOwner());
+		if (user)
+		{
+			user->CallLobbyWidgetUserSpecificInfo(tokens);
+		}
+		UE_LOG(LogTemp, Log, TEXT("Find UserInfo inst"));
+	}
+
+	//각각의 패킷마다 적절한 함수를 호출해 명령어를 처리합니다.
+	
 }
 
 std::vector<std::string> USocketComponent::Tokenizing(const std::string& Str, const char Delimiter)
@@ -153,9 +179,14 @@ std::vector<std::string> USocketComponent::Tokenizing(const std::string& Str, co
 	std::string temp;
 	std::istringstream stream{ Str };
 	std::vector<std::string> tokens;
-	while (std::getline(stream, temp, ' '))
+	while (std::getline(stream, temp, Delimiter))
 	{
 		tokens.emplace_back(temp);
 	}
 	return tokens;
+}
+
+void USocketComponent::ShowUserInfo()
+{
+
 }

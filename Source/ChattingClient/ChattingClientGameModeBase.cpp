@@ -7,8 +7,4 @@
 void AChattingClientGameModeBase::BeginPlay()
 {
 	Super::BeginPlay();
-	TSubclassOf<AActor> UserActor = AUser::StaticClass();
-	TArray<AActor*>actors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UserActor, actors);
-	User = Cast<AUser>(actors[0]);
 }
