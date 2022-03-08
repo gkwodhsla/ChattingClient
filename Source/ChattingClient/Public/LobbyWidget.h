@@ -45,8 +45,9 @@ protected:
 
 public:
 	void ShowUserInfoList(const std::vector<std::string>& UserList);
-	void ShowRoomList(const std::vector<std::string>& RoomList);
 	void ShowUserSpecificInfo(const std::vector<std::string>& UserList);
+	void ShowRoomList(const std::vector<std::string>& RoomList);
+	void ShowRoomSpecificInfo(const std::vector<std::string>& RoomList);
 
 public:
 	UPROPERTY(meta = (BindWidget))

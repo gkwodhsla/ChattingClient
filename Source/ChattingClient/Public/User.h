@@ -37,7 +37,8 @@ public:
 	
 	void CallLobbyWidgetUserInfo(const std::vector<std::string>& UserList);
 	void CallLobbyWidgetRoomInfo(const std::vector<std::string>& UserList);
-	void CallLobbyWidgetUserSpecificInfo(const std::vector<std::string>& UserList);
+	void CallLobbyWidgetUserSpecificInfo(const std::vector<std::string>& RoomList);
+	void CallLobbyWidgetRoomSpecificInfo(const std::vector<std::string>& RoomList);
 
 public:
 	UPROPERTY()

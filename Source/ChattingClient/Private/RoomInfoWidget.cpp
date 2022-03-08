@@ -22,7 +22,14 @@ void URoomInfoWidget::NativeConstruct()
 void URoomInfoWidget::SpecificInfoButtonClickedCallback()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Cyan, "Specific button clicked");
-	//User->SendMsg("lt");
+	FText roomInfo = RoomInfoText->GetText();
+	
+	auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*roomInfo.ToString()), ' ');
+	//스트링으로 변환하고 파싱한 다음에 방 인덱스 번호를 붙여준다.
+	std::string msgToSend = "st ";
+	msgToSend.push_back(tokens[0][1]);
+	msgToSend.push_back('\0');
+	User->SendMsg(msgToSend.c_str());
 }
 
 void URoomInfoWidget::JoinButtonClickedCallback()

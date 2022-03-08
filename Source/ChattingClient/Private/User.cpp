@@ -112,3 +112,12 @@ void AUser::CallLobbyWidgetUserSpecificInfo(const std::vector<std::string>& User
 		lobbyWidget->ShowUserSpecificInfo(UserList);
 	}
 }
+
+void AUser::CallLobbyWidgetRoomSpecificInfo(const std::vector<std::string>& RoomList)
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->ShowRoomSpecificInfo(RoomList);
+	}
+}

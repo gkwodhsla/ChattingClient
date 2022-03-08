@@ -14,7 +14,8 @@ const int32 ADDITIONAL_PACKET_SIZE = 2;
 //요청한 메시지에 추가적으로 \r\n문자를 붙여줍니다.
 const std::string USER_LIST_COMMAND = "UserList";
 const std::string USER_INFO_COMMAND = "UserInfo";
-const std::string ROOM_INFO_COMMAND = "RoomList";
+const std::string ROOM_LIST_COMMAND = "RoomList";
+const std::string ROOM_INFO_COMMAND = "RoomInfo";
 
 
 const char END_SIGN = '\f';

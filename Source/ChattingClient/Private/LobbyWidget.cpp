@@ -116,3 +116,20 @@ void ULobbyWidget::ShowRoomList(const std::vector<std::string>& RoomList)
 	}
 	//0번 인덱스는 ------RoomList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
 }
+
+void ULobbyWidget::ShowRoomSpecificInfo(const std::vector<std::string>& RoomList)
+{
+	if (RoomList.size() > 1)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Call Show Room Specific Info!"));
+		std::string temp = "";
+		for (int i = 1; i < RoomList.size(); ++i)
+		{
+			temp = temp + RoomList[i] + "\n";
+		}
+		auto specificInfoWidget = Cast<UUserSpecificInfoWindowWidget>
+			(CreateWidget(GetWorld(), User->UserSpecificInfoWindowWidgetClass, TEXT("RoomSpecificInfo")));
+		specificInfoWidget->InfoText->SetText(FText::FromString(temp.c_str()));
+		specificInfoWidget->AddToViewport();
+	}
+}
