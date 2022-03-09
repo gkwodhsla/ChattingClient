@@ -2,15 +2,17 @@
 
 #pragma once
 
+#include <string>
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include <string>
 #include "ChattingWindowWidget.generated.h"
 class AUser;
 class UScrollBox;
 class UEditableTextBox;
 class UButton;
 class UTextBlock;
+
+const FString QUIT_REQ_COMMAND = "/q";
 
 UCLASS()
 class CHATTINGCLIENT_API UChattingWindowWidget : public UUserWidget
@@ -40,7 +42,7 @@ public:
 	UButton* QuitButton = nullptr;
 
 	UPROPERTY()
-	AUser* User;
+	AUser* User = nullptr;
 
 	TArray<UUserWidget*> Chattings;
 };

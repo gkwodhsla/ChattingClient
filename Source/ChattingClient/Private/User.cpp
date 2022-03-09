@@ -2,15 +2,15 @@
 
 
 #include "User.h"
+#include "Components/Button.h"
+#include "Components/EditableTextBox.h"
+#include "CreateRoomWindowWidget.h"
+#include "Kismet/GameplayStatics.h"
 #include "LoginWidget.h"
 #include "LobbyWidget.h"
 #include "SendMailWindowWidget.h"
-#include "CreateRoomWindowWidget.h"
-#include "UserInfoWidget.h"
 #include "SocketComponent.h"
-#include "Components/Button.h"
-#include "Components/EditableTextBox.h"
-#include "Kismet/GameplayStatics.h"
+#include "UserInfoWidget.h"
 
 // Sets default values
 AUser::AUser()
@@ -92,7 +92,10 @@ void AUser::Tick(float DeltaTime)
 
 void AUser::SendMsg(const FString& Msg)
 {
-	SockComp->SendMsg(Msg);
+	if (SockComp)
+	{
+		SockComp->SendMsg(Msg);
+	}
 }
 
 void AUser::CallLobbyWidgetUserInfo(const std::vector<std::string>& UserList)

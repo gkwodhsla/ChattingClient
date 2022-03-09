@@ -6,6 +6,9 @@
 #include "Blueprint/UserWidget.h"
 #include "RoomInfoWidget.generated.h"
 
+const FString ROOM_SPECIFIC_INFO_REQ_COMMAND = "st ";
+const FString ROOM_JOIN_REQ_COMMAND = "j ";
+
 class UButton;
 class UTextBlock;
 
@@ -29,5 +32,5 @@ public:
 	UButton* JoinButton = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UTextBlock* RoomInfoText = nullptr;
-	AUser* User;
+	AUser* User = nullptr;
 };

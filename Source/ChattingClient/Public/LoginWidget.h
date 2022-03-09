@@ -6,9 +6,11 @@
 #include "Blueprint/UserWidget.h"
 #include "LoginWidget.generated.h"
 
+const FString LOGIN_REQ_COMMAND = "login ";
+
+class AUser;
 class UEditableTextBox;
 class UButton;
-class AUser;
 
 UCLASS()
 class CHATTINGCLIENT_API ULoginWidget : public UUserWidget

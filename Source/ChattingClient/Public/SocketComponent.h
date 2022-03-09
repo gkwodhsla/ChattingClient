@@ -10,7 +10,7 @@ class FSocket;
 
 const int32 MAX_BUFFER_SIZE = 1024;
 const int32 ADDITIONAL_PACKET_SIZE = 2;
-//텔넷 클라이언트와 메시지 양식을 통일하기 위해서
+//텔넷 클라이언트와 <메시지 양식을 통일>하기 위해서
 //요청한 메시지에 추가적으로 \r\n문자를 붙여줍니다.
 const std::string USER_LIST_COMMAND = "UserList";
 const std::string USER_INFO_COMMAND = "UserInfo";
@@ -47,12 +47,10 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
 public:
 	void SendMsg(const FString& Msg);
+	//이 함수를 통해 송신 큐에 메시지를 집어넣습니다.
+	//모인 메시지들은 ProcessingSend에서 한 방에 송신버퍼에 복사를 시도합니다.
 	void ProcessingRecv();
 	void ProcessingSend();
 
@@ -61,7 +59,6 @@ public:
 
 	
 private:
-	void ShowUserInfo();
 	void EndGame();
 	void ProcessingPacket(const std::string& Packet);
 

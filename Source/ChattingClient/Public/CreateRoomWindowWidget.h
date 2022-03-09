@@ -2,13 +2,16 @@
 
 #pragma once
 
+#include <string>
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "CreateRoomWindowWidget.generated.h"
 
+class AUser;
 class UEditableTextBox;
 class UButton;
-class AUser;
+
+const std::string ROOM_OPEN_REQ_COMMAND = "o ";
 
 UCLASS()
 class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget
@@ -31,5 +34,4 @@ public:
 	UButton* CreateButton = nullptr;
 	UPROPERTY()
 	AUser* User = nullptr;
-
 };

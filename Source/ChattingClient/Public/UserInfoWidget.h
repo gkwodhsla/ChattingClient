@@ -6,10 +6,10 @@
 #include "Blueprint/UserWidget.h"
 #include "UserInfoWidget.generated.h"
 
+class AUser;
+
 class UButton;
 class UTextBlock;
-
-class AUser;
 
 UCLASS()
 class CHATTINGCLIENT_API UUserInfoWidget : public UUserWidget
@@ -26,6 +26,6 @@ public:
 	UButton* SpecificInfoButton = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UTextBlock* UserInfoText = nullptr;
-	AUser* User;
+	AUser* User = nullptr;
 
 };

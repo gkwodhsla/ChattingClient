@@ -11,21 +11,28 @@
 
 void ULoginWidget::NativeConstruct()
 {
+	Super::NativeConstruct();
+
 	TArray<AActor*> actors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AUser::StaticClass(), actors);
-	User = Cast<AUser>(actors[0]);
+	if (actors.Num() > 0)
+	{
+		User = Cast<AUser>(actors[0]);
+	}
 
 	LoginButton->OnClicked.AddUniqueDynamic(this, &ULoginWidget::LoginButtonClickedCallback);
 }
 
 void ULoginWidget::LoginButtonClickedCallback()
 {
-	FText text = LoginTextBox->GetText();
-	FString msg = "login " + text.ToString();
-	
-	User->SendMsg(msg);
+	if (User)
+	{
+		FText text = LoginTextBox->GetText();
+		FString msg = LOGIN_REQ_COMMAND + text.ToString();
 
-	User->LoginWidget->RemoveFromViewport();
-	User->LobbyWidget->AddToViewport();
-	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, text.ToString());
+		User->SendMsg(msg);
+
+		User->LoginWidget->RemoveFromViewport();
+		User->LobbyWidget->AddToViewport();
+	}
 }

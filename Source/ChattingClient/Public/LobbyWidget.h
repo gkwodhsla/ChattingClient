@@ -2,11 +2,15 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
 #include <vector>
 #include <string>
+#include "CoreMinimal.h"
+#include "Blueprint/UserWidget.h"
 #include "LobbyWidget.generated.h"
+
+const FString USER_LIST_REQ_COMMAND = "us";
+const FString ROOM_LIST_REQ_COMMAND = "lt";
+const FString END_PROGRAM_REQ_COMMAND = "x";
 
 const int LOBBY_INDEX = 0;
 const int USER_LIST_INDEX = 1;
@@ -15,15 +19,14 @@ const int CREATE_ROOM_INDEX = 3;
 const int SEND_MAIL_INDEX = 4;
 const int CHATTING_WINDOW_INDEX = 5;
 
+class AUser;
+
 class UButton;
 class UWidgetSwitcher;
 class UUserListWidget;
 class UCreateRoomWindowWidget;
 class USendMailWindowWidget;
 class UChattingWindowWidget;
-
-class AUser;
-
 class UUserInfoWidget;
 
 UCLASS()

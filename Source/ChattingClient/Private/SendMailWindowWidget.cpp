@@ -9,21 +9,30 @@
 
 void USendMailWindowWidget::NativeConstruct()
 {
+	Super::NativeConstruct();
+
 	TArray<AActor*> actors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AUser::StaticClass(), actors);
-	User = Cast<AUser>(actors[0]);
+	if (actors.Num() > 0)
+	{
+		User = Cast<AUser>(actors[0]);
+	}
 
 	SendButton->OnClicked.AddUniqueDynamic(this, &USendMailWindowWidget::SendButtonClickedCallback);
 }
 
 void USendMailWindowWidget::SendButtonClickedCallback()
 {
-	FText to = ToTextBox->GetText();
-	FText content = MessageTextBox->GetText();
+	if (User)
+	{
+		FText to = ToTextBox->GetText();
+		FText content = MessageTextBox->GetText();
 
-	std::string msgToSend = "to ";
-	msgToSend = msgToSend + std::string(TCHAR_TO_UTF8(*to.ToString())) + " " +
-		std::string(TCHAR_TO_UTF8(*content.ToString()));
-
-	User->SendMsg(msgToSend.c_str());
+		FString msgToSend = SEND_MAIL_REQ_COMMAND;
+		msgToSend.Append(std::string(TCHAR_TO_UTF8(*to.ToString())).c_str());
+		msgToSend.AppendChar(' ');
+		msgToSend.Append(std::string(TCHAR_TO_UTF8(*content.ToString())).c_str());
+		
+		User->SendMsg(msgToSend);
+	}
 }

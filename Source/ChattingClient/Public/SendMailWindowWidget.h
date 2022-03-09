@@ -6,9 +6,11 @@
 #include "Blueprint/UserWidget.h"
 #include "SendMailWindowWidget.generated.h"
 
+class AUser;
 class UEditableTextBox;
 class UButton;
-class AUser;
+
+const FString SEND_MAIL_REQ_COMMAND = "to ";
 
 UCLASS()
 class CHATTINGCLIENT_API USendMailWindowWidget : public UUserWidget
