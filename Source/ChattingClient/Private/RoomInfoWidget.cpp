@@ -44,7 +44,7 @@ void URoomInfoWidget::SpecificInfoButtonClickedCallback()
 
 void URoomInfoWidget::JoinButtonClickedCallback()
 {
-	if (User)
+	if (User && !User->IsJoinRoom)
 	{
 		FText roomInfo = RoomInfoText->GetText();
 
@@ -58,5 +58,9 @@ void URoomInfoWidget::JoinButtonClickedCallback()
 			User->SendMsg(msgToSend);
 			User->JoiningRoom();
 		}
+	}
+	if (User->IsJoinRoom)
+	{
+		User->ShowWarningMsg("Before join another room please <quit room first>");
 	}
 }

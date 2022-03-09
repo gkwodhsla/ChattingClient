@@ -28,6 +28,7 @@ class UCreateRoomWindowWidget;
 class USendMailWindowWidget;
 class UChattingWindowWidget;
 class UUserInfoWidget;
+class UWarningMsgWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API ULobbyWidget : public UUserWidget
@@ -49,6 +50,8 @@ protected:
 	void ChattingWindowButtonClickedCallback();
 	UFUNCTION()
 	void ExitButtonClickedCallback();
+	UFUNCTION()
+	void AnimationFinishedCallback();
 
 public:
 	void ShowUserInfoList(const std::vector<std::string>& UserList);
@@ -58,6 +61,9 @@ public:
 	void AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting);
 	void EraseAllChatting();
 	void GoToLobby();
+	void ShowExitButton();
+	void HideExitButton();
+	void ShowWarningMsg(const FString& Msg);
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -87,9 +93,15 @@ public:
 	UPROPERTY(meta = (BindWidget))
 	UButton* ExitButton = nullptr;
 
+	UPROPERTY(meta = (BindWidget))
+	UWarningMsgWidget* WarningMsg = nullptr;
+
 	UPROPERTY()
 	AUser* User = nullptr;
 
 	TArray<UUserWidget*> UserListWidgets;
 	TArray<UUserWidget*> RoomListWidgets;
+
+private:
+	FWidgetAnimationDynamicEvent EndDelegate;
 };

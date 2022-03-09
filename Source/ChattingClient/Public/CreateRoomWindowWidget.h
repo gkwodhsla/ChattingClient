@@ -12,6 +12,7 @@ class UEditableTextBox;
 class UButton;
 
 const std::string ROOM_OPEN_REQ_COMMAND = "o ";
+const uint32 MIN_ROOM_PARTICIPANTS = 2;
 
 UCLASS()
 class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget

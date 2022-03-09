@@ -13,6 +13,8 @@
 #include "UserInfoWidget.h"
 #include "UserSpecificInfoWindowWidget.h"
 #include "RoomInfoWidget.h"
+#include "WarningMsgWidget.h"
+
 
 void ULobbyWidget::NativeConstruct()
 {
@@ -31,6 +33,9 @@ void ULobbyWidget::NativeConstruct()
 	SendMailButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::SendMailButtonClickedCallback);
 	ChattingWindowButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ChattingWindowButtonClickedCallback);
 	ExitButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ExitButtonClickedCallback);
+	EndDelegate.BindDynamic(this, &ULobbyWidget::AnimationFinishedCallback);
+
+	WarningMsg->BindToAnimationFinished(WarningMsg->FadeOut, EndDelegate);
 }
 
 void ULobbyWidget::UserListButtonClickedCallback()
@@ -78,6 +83,10 @@ void ULobbyWidget::ChattingWindowButtonClickedCallback()
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(CHATTING_WINDOW_INDEX);
 }
 
+void ULobbyWidget::AnimationFinishedCallback()
+{
+	WarningMsg->SetVisibility(ESlateVisibility::Hidden);
+}
 
 void ULobbyWidget::ShowUserInfoList(const std::vector<std::string>& UserList)
 {
@@ -170,4 +179,21 @@ void ULobbyWidget::EraseAllChatting()
 void ULobbyWidget::GoToLobby()
 {
 	LobbyWidgetSwitcher->SetActiveWidget(LOBBY_INDEX);
+}
+
+void ULobbyWidget::ShowExitButton()
+{
+	ExitButton->SetVisibility(ESlateVisibility::Visible);
+}
+
+void ULobbyWidget::HideExitButton()
+{
+	ExitButton->SetVisibility(ESlateVisibility::Hidden);
+}
+
+void ULobbyWidget::ShowWarningMsg(const FString& Msg)
+{
+	WarningMsg->SetVisibility(ESlateVisibility::Visible);
+	WarningMsg->Msg->SetText(FText::FromString(Msg));
+	WarningMsg->PlayAnimation(WarningMsg->FadeOut);
 }

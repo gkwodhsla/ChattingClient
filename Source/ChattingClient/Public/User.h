@@ -14,6 +14,7 @@ class UUserInfoWidget;
 class UUserSpecificInfoWindowWidget;
 class URoomInfoWidget;
 class UMsgWidget;
+class UWarningMsgWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API AUser : public AActor
@@ -45,6 +46,7 @@ public:
 public:
 	void JoiningRoom();
 	void QuittingRoom();
+	void ShowWarningMsg(const FString& Msg);
 
 public:
 	UPROPERTY()
@@ -65,7 +67,8 @@ public:
 	TSubclassOf<UUserSpecificInfoWindowWidget> UserSpecificInfoWindowWidgetClass;
 	UPROPERTY()
 	TSubclassOf<URoomInfoWidget> RoomInfoWidgetClass;
+	UPROPERTY()
+	TSubclassOf<UWarningMsgWidget> WarningMsgWidgetClass;
 
-private:
 	bool IsJoinRoom;
 };

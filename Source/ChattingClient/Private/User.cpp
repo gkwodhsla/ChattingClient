@@ -62,6 +62,13 @@ AUser::AUser()
 		MsgWidgetClass = MsgWidgetBP.Class;
 	}
 
+	static ConstructorHelpers::FClassFinder<UUserWidget> WarningMsgWidgetBP
+	(TEXT("WidgetBlueprint'/Game/WidgetBP/WBP_WarningMsg.WBP_WarningMsg_C'"));
+	if (WarningMsgWidgetBP.Succeeded())
+	{
+		WarningMsgWidgetClass = WarningMsgWidgetBP.Class;
+	}
+
 	SockComp = CreateDefaultSubobject<USocketComponent>(TEXT("SockComp"));
 }
 
@@ -150,6 +157,7 @@ void AUser::JoiningRoom()
 	{
 		lobbyWidget->ChattingWindowButton->OnClicked.Broadcast();
 		lobbyWidget->EraseAllChatting();
+		lobbyWidget->HideExitButton();
 		IsJoinRoom = true;
 	}
 }
@@ -159,7 +167,17 @@ void AUser::QuittingRoom()
 	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
 	if (lobbyWidget)
 	{
+		lobbyWidget->ShowExitButton();
 		lobbyWidget->GoToLobby();
 		IsJoinRoom = false;
+	}
+}
+
+void AUser::ShowWarningMsg(const FString& Msg)
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->ShowWarningMsg(Msg);
 	}
 }
