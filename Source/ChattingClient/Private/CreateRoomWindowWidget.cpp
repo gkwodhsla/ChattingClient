@@ -30,7 +30,7 @@ void UCreateRoomWindowWidget::CreateButtonClickedCallback()
 		std::string msgToSend = ROOM_OPEN_REQ_COMMAND;
 
 		FText maxParticipants = ParticipantsTextBox->GetText();
-		if (FCString::Atoi(*maxParticipants.ToString()) <= MIN_ROOM_PARTICIPANTS)
+		if (FCString::Atoi(*maxParticipants.ToString()) < MIN_ROOM_PARTICIPANTS)
 		{
 			User->ShowWarningMsg("Participants must over 2");
 			return;
@@ -44,8 +44,9 @@ void UCreateRoomWindowWidget::CreateButtonClickedCallback()
 
 		User->JoiningRoom();
 		//채팅윈도우로 이동합니다.
+		User->RoomName = roomName;
 	}
-	if (User->IsJoinRoom)
+	else if (User->IsJoinRoom)
 	{
 		User->ShowWarningMsg("Before Creating new room first <quit room>");
 	}

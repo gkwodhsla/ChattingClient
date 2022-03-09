@@ -36,3 +36,21 @@ void USendMailWindowWidget::SendButtonClickedCallback()
 		User->SendMsg(msgToSend);
 	}
 }
+
+void USendMailWindowWidget::ChangeSendMailMode()
+{
+	MessageTextBox->SetIsReadOnly(false);
+	MessageTextBox->SetHintText(FText::FromString("Message"));
+}
+
+void USendMailWindowWidget::ChangeInviteMode()
+{
+	MessageTextBox->SetIsReadOnly(true);
+	MessageTextBox->SetHintText(FText::FromString(""));
+
+	FString msg = User->UserName.ToString();
+	msg.Append(TEXT(" Invite you room "));
+	msg.Append(User->RoomName.ToString());
+
+	MessageTextBox->SetText(FText::FromString(msg));
+}

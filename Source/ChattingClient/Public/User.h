@@ -70,5 +70,10 @@ public:
 	UPROPERTY()
 	TSubclassOf<UWarningMsgWidget> WarningMsgWidgetClass;
 
+	UPROPERTY()
+	FText UserName;
+	UPROPERTY()
+	FText RoomName;
+
 	bool IsJoinRoom;
 };

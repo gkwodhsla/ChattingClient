@@ -11,6 +11,7 @@ const FString LOGIN_REQ_COMMAND = "login ";
 class AUser;
 class UEditableTextBox;
 class UButton;
+class UWarningMsgWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API ULoginWidget : public UUserWidget
@@ -19,8 +20,12 @@ class CHATTINGCLIENT_API ULoginWidget : public UUserWidget
 	
 protected:
 	void NativeConstruct()override;
+
+protected:
 	UFUNCTION()
 	void LoginButtonClickedCallback();
+	UFUNCTION()
+	void AnimationFinishedCallback();
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -29,6 +34,12 @@ public:
 	UPROPERTY(meta = (BindWidget))
 	UButton* LoginButton = nullptr;
 	
+	UPROPERTY(meta = (BindWidget))
+	UWarningMsgWidget* WarningMsg = nullptr;
+	
 	UPROPERTY()
 	AUser* User;
+
+private:
+	FWidgetAnimationDynamicEvent EndDelegate;
 };

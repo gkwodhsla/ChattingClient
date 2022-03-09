@@ -8,6 +8,7 @@
 #include "Components/TextBlock.h"
 #include "ChattingWindowWidget.h"
 #include "Kismet/GameplayStatics.h"
+#include "SendMailWindowWidget.h"
 #include "User.h"
 #include "UserListWidget.h"
 #include "UserInfoWidget.h"
@@ -32,6 +33,7 @@ void ULobbyWidget::NativeConstruct()
 	CreateRoomButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::CreateRoomButtonClickedCallback);
 	SendMailButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::SendMailButtonClickedCallback);
 	ChattingWindowButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ChattingWindowButtonClickedCallback);
+	InviteButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::InviteButtonClickedCallback);
 	ExitButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ExitButtonClickedCallback);
 	EndDelegate.BindDynamic(this, &ULobbyWidget::AnimationFinishedCallback);
 
@@ -68,6 +70,7 @@ void ULobbyWidget::CreateRoomButtonClickedCallback()
 void ULobbyWidget::SendMailButtonClickedCallback()
 {
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(SEND_MAIL_INDEX);
+	SendMailWindow->ChangeSendMailMode();
 }
 
 void ULobbyWidget::ExitButtonClickedCallback()
@@ -75,6 +78,19 @@ void ULobbyWidget::ExitButtonClickedCallback()
 	if (User)
 	{
 		User->SendMsg(END_PROGRAM_REQ_COMMAND);
+	}
+}
+
+void ULobbyWidget::InviteButtonClickedCallback()
+{
+	if (User && User->IsJoinRoom)
+	{
+		LobbyWidgetSwitcher->SetActiveWidgetIndex(SEND_MAIL_INDEX);
+		SendMailWindow->ChangeInviteMode();
+	}
+	if (!User->IsJoinRoom)
+	{
+		User->ShowWarningMsg("Before sending Invite Message join chatting room first");
 	}
 }
 

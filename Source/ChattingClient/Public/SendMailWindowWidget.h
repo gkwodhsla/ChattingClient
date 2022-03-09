@@ -23,6 +23,9 @@ public:
 	UFUNCTION()
 	void SendButtonClickedCallback();
 
+	void ChangeSendMailMode();
+	void ChangeInviteMode();
+
 public:
 	UPROPERTY(meta = (BindWidget))
 	UEditableTextBox* ToTextBox = nullptr;

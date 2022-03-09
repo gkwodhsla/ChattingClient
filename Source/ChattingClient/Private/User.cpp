@@ -18,6 +18,9 @@ AUser::AUser()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	UserName = FText::FromString(TEXT(""));
+	RoomName = FText::FromString(TEXT(""));
+
 	IsJoinRoom = false;
 
 	static ConstructorHelpers::FClassFinder<UUserWidget> loginWidgetBP(TEXT("WidgetBlueprint'/Game/WidgetBP/WBP_Login.WBP_Login_C'"));

@@ -4,10 +4,12 @@
 #include "LoginWidget.h"
 #include "Components/Button.h"
 #include "Components/EditableTextBox.h"
+#include "Components/TextBlock.h"
 #include "SocketComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "../ChattingClientGameModeBase.h"
 #include "User.h"
+#include "WarningMsgWidget.h"
 
 void ULoginWidget::NativeConstruct()
 {
@@ -21,6 +23,14 @@ void ULoginWidget::NativeConstruct()
 	}
 
 	LoginButton->OnClicked.AddUniqueDynamic(this, &ULoginWidget::LoginButtonClickedCallback);
+	EndDelegate.BindDynamic(this, &ULoginWidget::AnimationFinishedCallback);
+
+	WarningMsg->BindToAnimationFinished(WarningMsg->FadeOut, EndDelegate);
+}
+
+void ULoginWidget::AnimationFinishedCallback()
+{
+	WarningMsg->SetVisibility(ESlateVisibility::Hidden);
 }
 
 void ULoginWidget::LoginButtonClickedCallback()
@@ -28,11 +38,21 @@ void ULoginWidget::LoginButtonClickedCallback()
 	if (User)
 	{
 		FText text = LoginTextBox->GetText();
-		FString msg = LOGIN_REQ_COMMAND + text.ToString();
+		if (text.ToString().Len() > 0)
+		{
+			FString msg = LOGIN_REQ_COMMAND + text.ToString();
 
-		User->SendMsg(msg);
+			User->SendMsg(msg);
 
-		User->LoginWidget->RemoveFromViewport();
-		User->LobbyWidget->AddToViewport();
+			User->LoginWidget->RemoveFromViewport();
+			User->LobbyWidget->AddToViewport();
+			User->UserName = text;
+		}
+		else
+		{
+			WarningMsg->SetVisibility(ESlateVisibility::Visible);
+			WarningMsg->Msg->SetText(FText::FromString(TEXT("Name must be at least one letters")));
+			WarningMsg->PlayAnimation(WarningMsg->FadeOut);
+		}
 	}
 }

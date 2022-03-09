@@ -51,6 +51,8 @@ protected:
 	UFUNCTION()
 	void ExitButtonClickedCallback();
 	UFUNCTION()
+	void InviteButtonClickedCallback();
+	UFUNCTION()
 	void AnimationFinishedCallback();
 
 public:
@@ -92,7 +94,9 @@ public:
 	UButton* ChattingWindowButton = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UButton* ExitButton = nullptr;
-
+	UPROPERTY(meta = (BindWidget))
+	UButton* InviteButton = nullptr;
+	
 	UPROPERTY(meta = (BindWidget))
 	UWarningMsgWidget* WarningMsg = nullptr;
 

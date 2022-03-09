@@ -51,12 +51,13 @@ void URoomInfoWidget::JoinButtonClickedCallback()
 		auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*roomInfo.ToString()), ' ');
 		//스트링으로 변환하고 파싱한 다음에 방 인덱스 번호를 붙여줍니다.
 		FString msgToSend = ROOM_JOIN_REQ_COMMAND;
-		if (tokens.size() > 0)
+		if (tokens.size() > 1)
 		{
 			msgToSend.AppendChar(tokens[0][1]);
 			msgToSend.AppendChar('\0');
 			User->SendMsg(msgToSend);
 			User->JoiningRoom();
+			User->RoomName = FText::FromString(tokens[1].c_str());
 		}
 	}
 	if (User->IsJoinRoom)
