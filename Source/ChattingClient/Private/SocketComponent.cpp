@@ -187,6 +187,16 @@ void USocketComponent::ProcessingPacket(const std::string& Packet)
 		}
 		UE_LOG(LogTemp, Log, TEXT("Find RoomInfo inst"));
 	}
+	else if (Packet.find(CHATTING_COMMAND) != std::string::npos)
+	{
+		auto user = Cast<AUser>(GetOwner());
+		if (user)
+		{
+			tokens[0].pop_back();
+			user->AddChattingMsgToChattingWindow(tokens);
+		}
+		UE_LOG(LogTemp, Log, TEXT("Find RoomInfo inst"));
+	}
 	//각각의 패킷마다 적절한 함수를 호출해 명령어를 처리합니다.
 	
 }

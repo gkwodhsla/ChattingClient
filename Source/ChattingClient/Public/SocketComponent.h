@@ -16,7 +16,7 @@ const std::string USER_LIST_COMMAND = "UserList";
 const std::string USER_INFO_COMMAND = "UserInfo";
 const std::string ROOM_LIST_COMMAND = "RoomList";
 const std::string ROOM_INFO_COMMAND = "RoomInfo";
-
+const std::string CHATTING_COMMAND = "\t";
 
 const char END_SIGN = '\f';
 //서버->클라이언트 엔드 사인으로 \f를 사용합니다.

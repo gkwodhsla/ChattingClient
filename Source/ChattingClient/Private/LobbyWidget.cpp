@@ -6,6 +6,7 @@
 #include "Components/Button.h"
 #include "Components/ScrollBox.h"
 #include "Components/TextBlock.h"
+#include "ChattingWindowWidget.h"
 #include "Kismet/GameplayStatics.h"
 #include "../ChattingClientGameModeBase.h"
 #include "User.h"
@@ -24,6 +25,7 @@ void ULobbyWidget::NativeConstruct()
 	RoomListButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::RoomListButtonClickedCallback);
 	CreateRoomButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::CreateRoomButtonClickedCallback);
 	SendMailButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::SendMailButtonClickedCallback);
+	ChattingWindowButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ChattingWindowButtonClickedCallback);
 	ExitButton->OnClicked.AddUniqueDynamic(this, &ULobbyWidget::ExitButtonClickedCallback);
 }
 
@@ -33,34 +35,36 @@ void ULobbyWidget::UserListButtonClickedCallback()
 
 	User->SendMsg("us");
 	//유저 정보를 달라고 서버에 요청합니다.
-	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "UserListButtonClicked");
 }
+
 void ULobbyWidget::RoomListButtonClickedCallback()
 {
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(ROOM_LIST_INDEX);
 	
 	User->SendMsg("lt");
 	//방 정보를 달라고 서버에 요청합니다.
-	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "RoomListButtonClicked");
 }
+
 void ULobbyWidget::CreateRoomButtonClickedCallback()
 {
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(CREATE_ROOM_INDEX);
-	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "CreateRoomButtonClicked");
 }
+
 void ULobbyWidget::SendMailButtonClickedCallback()
 {
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(SEND_MAIL_INDEX);
-	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "SendMailButtonClicked");
 }
+
 void ULobbyWidget::ExitButtonClickedCallback()
 {
 	User->SendMsg("x");
-	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Cyan, "ExitButtonClicked");
 }
-//소켓쪽에서 로비위젯의 함수를 호출해준다!
-//로비위젯 함수에선 파싱된 메시지를 받아서
-//WBP_UserInfo클래스를 만들고 유저 정보 내용을 채워 로비의 유저리스트에 붙여준다.
+
+void ULobbyWidget::ChattingWindowButtonClickedCallback()
+{
+	LobbyWidgetSwitcher->SetActiveWidgetIndex(CHATTING_WINDOW_INDEX);
+}
+
 
 void ULobbyWidget::ShowUserInfoList(const std::vector<std::string>& UserList)
 {
@@ -132,4 +136,19 @@ void ULobbyWidget::ShowRoomSpecificInfo(const std::vector<std::string>& RoomList
 		specificInfoWidget->InfoText->SetText(FText::FromString(temp.c_str()));
 		specificInfoWidget->AddToViewport();
 	}
+}
+
+void ULobbyWidget::AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting)
+{
+	ChattingWindow->AddNewChatting(Chatting.at(0));
+}
+
+void ULobbyWidget::EraseAllChatting()
+{
+	ChattingWindow->EraseAllChatting();
+}
+
+void ULobbyWidget::GoToLobby()
+{
+	LobbyWidgetSwitcher->SetActiveWidget(LOBBY_INDEX);
 }

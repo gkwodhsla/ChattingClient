@@ -8,17 +8,19 @@
 #include <string>
 #include "LobbyWidget.generated.h"
 
-const int BACKGROUND_IMG_INDEX = 0;
+const int LOBBY_INDEX = 0;
 const int USER_LIST_INDEX = 1;
 const int ROOM_LIST_INDEX = 2;
 const int CREATE_ROOM_INDEX = 3;
 const int SEND_MAIL_INDEX = 4;
+const int CHATTING_WINDOW_INDEX = 5;
 
 class UButton;
 class UWidgetSwitcher;
 class UUserListWidget;
 class UCreateRoomWindowWidget;
 class USendMailWindowWidget;
+class UChattingWindowWidget;
 
 class AUser;
 
@@ -41,6 +43,8 @@ protected:
 	UFUNCTION()
 	void SendMailButtonClickedCallback();
 	UFUNCTION()
+	void ChattingWindowButtonClickedCallback();
+	UFUNCTION()
 	void ExitButtonClickedCallback();
 
 public:
@@ -48,6 +52,9 @@ public:
 	void ShowUserSpecificInfo(const std::vector<std::string>& UserList);
 	void ShowRoomList(const std::vector<std::string>& RoomList);
 	void ShowRoomSpecificInfo(const std::vector<std::string>& RoomList);
+	void AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting);
+	void EraseAllChatting();
+	void GoToLobby();
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -60,6 +67,9 @@ public:
 	UCreateRoomWindowWidget* CreateRoomWindow = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	USendMailWindowWidget* SendMailWindow = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UChattingWindowWidget* ChattingWindow = nullptr;
+
 	
 	UPROPERTY(meta = (BindWidget))
 	UButton* UserListButton = nullptr;
@@ -69,6 +79,8 @@ public:
 	UButton* CreateRoomButton = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UButton* SendMailButton = nullptr;
+	UPROPERTY(meta = (BindWidget))
+	UButton* ChattingWindowButton = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UButton* ExitButton = nullptr;
 

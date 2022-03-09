@@ -8,6 +8,7 @@
 
 class UEditableTextBox;
 class UButton;
+class AUser;
 
 UCLASS()
 class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget
@@ -15,10 +16,11 @@ class CHATTINGCLIENT_API UCreateRoomWindowWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	void NativeConstruct() override;
+
+public:
 	UFUNCTION()
 	void CreateButtonClickedCallback();
-	UFUNCTION()
-	void CancelButtonClickedCallback();
 
 public:
 	UPROPERTY(meta = (BindWidget))
@@ -27,6 +29,7 @@ public:
 	UEditableTextBox* RoomNameTextBox = nullptr;
 	UPROPERTY(meta = (BindWidget))
 	UButton* CreateButton = nullptr;
-	UPROPERTY(meta = (BindWidget))
-	UButton* CancelButton = nullptr;
+	UPROPERTY()
+	AUser* User = nullptr;
+
 };

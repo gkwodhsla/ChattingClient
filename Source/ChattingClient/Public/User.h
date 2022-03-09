@@ -13,6 +13,7 @@ class USocketComponent;
 class UUserInfoWidget;
 class UUserSpecificInfoWindowWidget;
 class URoomInfoWidget;
+class UMsgWidget;
 
 UCLASS()
 class CHATTINGCLIENT_API AUser : public AActor
@@ -39,14 +40,21 @@ public:
 	void CallLobbyWidgetRoomInfo(const std::vector<std::string>& UserList);
 	void CallLobbyWidgetUserSpecificInfo(const std::vector<std::string>& RoomList);
 	void CallLobbyWidgetRoomSpecificInfo(const std::vector<std::string>& RoomList);
+	void AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting);
+
+public:
+	void JoiningRoom();
+	void QuittingRoom();
 
 public:
 	UPROPERTY()
 	TSubclassOf<UUserWidget> LoginWidgetClass;
 	UPROPERTY()
-	UUserWidget* LoginWidget = nullptr;
-	UPROPERTY()
 	TSubclassOf<UUserWidget> LobbyWidgetClass;
+	UPROPERTY()
+	TSubclassOf<UMsgWidget> MsgWidgetClass;
+	UPROPERTY()
+	UUserWidget* LoginWidget = nullptr;
 	UPROPERTY()
 	UUserWidget* LobbyWidget = nullptr;
 	UPROPERTY()
@@ -57,4 +65,7 @@ public:
 	TSubclassOf<UUserSpecificInfoWindowWidget> UserSpecificInfoWindowWidgetClass;
 	UPROPERTY()
 	TSubclassOf<URoomInfoWidget> RoomInfoWidgetClass;
+
+private:
+	bool IsJoinRoom;
 };

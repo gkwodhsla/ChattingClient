@@ -18,6 +18,8 @@ AUser::AUser()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	IsJoinRoom = false;
+
 	static ConstructorHelpers::FClassFinder<UUserWidget> loginWidgetBP(TEXT("WidgetBlueprint'/Game/WidgetBP/WBP_Login.WBP_Login_C'"));
 	if (loginWidgetBP.Succeeded())
 	{
@@ -51,6 +53,13 @@ AUser::AUser()
 	if (RoomInfoWindowWidgetBP.Succeeded())
 	{
 		RoomInfoWidgetClass = RoomInfoWindowWidgetBP.Class;
+	}
+
+	static ConstructorHelpers::FClassFinder<UUserWidget> MsgWidgetBP
+	(TEXT("WidgetBlueprint'/Game/WidgetBP/WBP_Msg.WBP_Msg_C'"));
+	if (MsgWidgetBP.Succeeded())
+	{
+		MsgWidgetClass = MsgWidgetBP.Class;
 	}
 
 	SockComp = CreateDefaultSubobject<USocketComponent>(TEXT("SockComp"));
@@ -119,5 +128,35 @@ void AUser::CallLobbyWidgetRoomSpecificInfo(const std::vector<std::string>& Room
 	if (lobbyWidget)
 	{
 		lobbyWidget->ShowRoomSpecificInfo(RoomList);
+	}
+}
+
+void AUser::AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting)
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->AddChattingMsgToChattingWindow(Chatting);
+	}
+}
+
+void AUser::JoiningRoom()
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->ChattingWindowButton->OnClicked.Broadcast();
+		lobbyWidget->EraseAllChatting();
+		IsJoinRoom = true;
+	}
+}
+
+void AUser::QuittingRoom()
+{
+	auto lobbyWidget = Cast<ULobbyWidget>(LobbyWidget);
+	if (lobbyWidget)
+	{
+		lobbyWidget->GoToLobby();
+		IsJoinRoom = false;
 	}
 }
