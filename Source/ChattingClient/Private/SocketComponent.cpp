@@ -205,6 +205,15 @@ void USocketComponent::ProcessingPacket(const std::string& Packet)
 		}
 		UE_LOG(LogTemp, Log, TEXT("Find Normal Chatting Message"));
 	}
+	else if (Packet.find(MAIL_COMMAND) != std::string::npos)
+	{
+		auto user = Cast<AUser>(GetOwner());
+		if (user)
+		{
+			user->ShowWarningMsg(tokens[0].c_str());
+		}
+		UE_LOG(LogTemp, Log, TEXT("Find Mail Chatting Message"));
+	}
 	//각각의 패킷마다 적절한 함수를 호출해 명령어를 처리합니다.
 	
 }
