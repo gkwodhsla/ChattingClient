@@ -74,8 +74,8 @@ void USocketComponent::ProcessingRecv()
 		return;
 	}
 
-	int32 recvSize = 0; //SOCKET_ERROR가 -1이라 int로 했습니다.
-	bool isSuccess = Socket->Recv((uint8*)RecvBuffer.GetData(), MAX_BUFFER_SIZE, recvSize);
+	int32 recvSize = 0;
+	bool isSuccess = Socket->Recv((uint8*)RecvBuffer.GetData() + RecvRightPos, MAX_BUFFER_SIZE - RecvRightPos, recvSize);
 
 	if (!isSuccess)
 	{

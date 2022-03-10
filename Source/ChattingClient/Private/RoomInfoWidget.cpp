@@ -45,6 +45,11 @@ void URoomInfoWidget::SpecificInfoButtonClickedCallback()
 
 void URoomInfoWidget::JoinButtonClickedCallback()
 {
+	if (User->IsJoinRoom)
+	{
+		User->ShowWarningMsg("Before Creating new room first <quit room>");
+		return;
+	}
 	if (User && !User->IsJoinRoom)
 	{
 		FText roomInfo = RoomInfoText->GetText();
@@ -60,9 +65,5 @@ void URoomInfoWidget::JoinButtonClickedCallback()
 			User->JoiningRoom();
 			User->RoomName = FText::FromString(tokens[1].c_str());
 		}
-	}
-	if (User->IsJoinRoom)
-	{
-		User->ShowWarningMsg("Before join another room please <quit room first>");
 	}
 }

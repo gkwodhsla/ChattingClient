@@ -40,10 +40,8 @@ void USendMailWindowWidget::SendButtonClickedCallback()
 	ToTextBox->SetText(FText::FromString(""));
 	
 
-	if (!User->IsJoinRoom)
-	{
-		MessageTextBox->SetText(FText::FromString(""));
-	}
+	MessageTextBox->SetText(FText::FromString(""));
+	
 }
 
 void USendMailWindowWidget::ChangeSendMailMode()

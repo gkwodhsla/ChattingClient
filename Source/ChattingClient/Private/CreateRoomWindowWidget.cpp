@@ -1,9 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "CreateRoomWindowWidget.h"
 #include "../ChattingClientGameModeBase.h"
 #include "Components/Button.h"
-#include "CreateRoomWindowWidget.h"
 #include "Components/EditableTextBox.h"
 #include "Kismet/GameplayStatics.h"
 #include "User.h"
@@ -25,6 +24,12 @@ void UCreateRoomWindowWidget::NativeConstruct()
 
 void UCreateRoomWindowWidget::CreateButtonClickedCallback()
 {
+	if (User->IsJoinRoom)
+	{
+		User->ShowWarningMsg("Before Creating new room first <quit room>");
+		return;
+	}
+
 	if (User && !User->IsJoinRoom)
 	{
 		std::string msgToSend = ROOM_OPEN_REQ_COMMAND;
@@ -46,10 +51,7 @@ void UCreateRoomWindowWidget::CreateButtonClickedCallback()
 		//채팅윈도우로 이동합니다.
 		User->RoomName = roomName;
 	}
-	else if (User->IsJoinRoom)
-	{
-		User->ShowWarningMsg("Before Creating new room first <quit room>");
-	}
+	
 
 	if (ParticipantsTextBox)
 	{
