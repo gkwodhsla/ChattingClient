@@ -23,28 +23,46 @@ void USendMailWindowWidget::NativeConstruct()
 
 void USendMailWindowWidget::SendButtonClickedCallback()
 {
-	if (User)
+	if (!User || !MessageTextBox || !ToTextBox)
 	{
-		FText to = ToTextBox->GetText();
-		FText content = MessageTextBox->GetText();
+		return;
+	}
+	FText to = ToTextBox->GetText();
+	FText content = MessageTextBox->GetText();
 
-		FString msgToSend = SEND_MAIL_REQ_COMMAND;
-		msgToSend.Append(std::string(TCHAR_TO_UTF8(*to.ToString())).c_str());
-		msgToSend.AppendChar(' ');
-		msgToSend.Append(std::string(TCHAR_TO_UTF8(*content.ToString())).c_str());
-		
-		User->SendMsg(msgToSend);
+	FString msgToSend = SEND_MAIL_REQ_COMMAND;
+	msgToSend.Append(std::string(TCHAR_TO_UTF8(*to.ToString())).c_str());
+	msgToSend.AppendChar(' ');
+	msgToSend.Append(std::string(TCHAR_TO_UTF8(*content.ToString())).c_str());
+
+	User->SendMsg(msgToSend);
+
+	ToTextBox->SetText(FText::FromString(""));
+	
+
+	if (!User->IsJoinRoom)
+	{
+		MessageTextBox->SetText(FText::FromString(""));
 	}
 }
 
 void USendMailWindowWidget::ChangeSendMailMode()
 {
+	if (!MessageTextBox)
+	{
+		return;
+	}
+
 	MessageTextBox->SetIsReadOnly(false);
 	MessageTextBox->SetHintText(FText::FromString("Message"));
 }
 
 void USendMailWindowWidget::ChangeInviteMode()
 {
+	if (!MessageTextBox)
+	{
+		return;
+	}
 	MessageTextBox->SetIsReadOnly(true);
 	MessageTextBox->SetHintText(FText::FromString(""));
 

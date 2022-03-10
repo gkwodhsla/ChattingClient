@@ -6,6 +6,7 @@
 #include <queue>
 #include "SocketComponent.generated.h"
 
+class AUser;
 class FSocket;
 
 const int32 MAX_BUFFER_SIZE = 1024;
@@ -64,6 +65,8 @@ private:
 	void ProcessingPacket(const std::string& Packet);
 
 private:
+	UPROPERTY()
+	AUser* User = nullptr;
 	FSocket* Socket = nullptr;
 	TStaticArray<char, MAX_BUFFER_SIZE> RecvBuffer;
 	int32 RecvRightPos;

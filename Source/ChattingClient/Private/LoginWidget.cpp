@@ -30,29 +30,33 @@ void ULoginWidget::NativeConstruct()
 
 void ULoginWidget::AnimationFinishedCallback()
 {
-	WarningMsg->SetVisibility(ESlateVisibility::Hidden);
+	if (WarningMsg)
+	{
+		WarningMsg->SetVisibility(ESlateVisibility::Hidden);
+	}
 }
 
 void ULoginWidget::LoginButtonClickedCallback()
 {
-	if (User)
+	if (!User || !LoginTextBox || !WarningMsg)
 	{
-		FText text = LoginTextBox->GetText();
-		if (text.ToString().Len() > 0)
-		{
-			FString msg = LOGIN_REQ_COMMAND + text.ToString();
+		return;
+	}
+	FText text = LoginTextBox->GetText();
+	if (text.ToString().Len() > 0)
+	{
+		FString msg = LOGIN_REQ_COMMAND + text.ToString();
 
-			User->SendMsg(msg);
+		User->SendMsg(msg);
 
-			User->LoginWidget->RemoveFromViewport();
-			User->LobbyWidget->AddToViewport();
-			User->UserName = text;
-		}
-		else
-		{
-			WarningMsg->SetVisibility(ESlateVisibility::Visible);
-			WarningMsg->Msg->SetText(FText::FromString(TEXT("Name must be at least one letters")));
-			WarningMsg->PlayAnimation(WarningMsg->FadeOut);
-		}
+		User->LoginWidget->RemoveFromViewport();
+		User->LobbyWidget->AddToViewport();
+		User->UserName = text;
+	}
+	else
+	{
+		WarningMsg->SetVisibility(ESlateVisibility::Visible);
+		WarningMsg->Msg->SetText(FText::FromString(TEXT("Name must be at least one letters")));
+		WarningMsg->PlayAnimation(WarningMsg->FadeOut);
 	}
 }

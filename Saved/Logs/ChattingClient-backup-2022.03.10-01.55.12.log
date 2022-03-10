@@ -1,0 +1,1948 @@
+﻿Log file open, 03/10/22 10:54:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ChattingClient
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.297529
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750HF CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/EpicGames/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.03.10-01.54.31:773][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:774][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:784][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.03.10-01.54.31:784][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.03.10-01.54.31:785][  0]LogInit: Selected Device Profile: [Windows]
+[2022.03.10-01.54.31:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.03.10-01.54.31:785][  0]LogHAL: Display: Platform has ~ 16 GB [17096134656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.03.10-01.54.31:785][  0]LogInit: Going up to parent DeviceProfile []
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.03.10-01.54.31:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Scalability.ini]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.03.10-01.54.31:786][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.03.10-01.54.31:792][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.03.10-01.54.31:792][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.03.10-01.54.31:792][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.03.10-01.54.31:792][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Engine.ini]
+[2022.03.10-01.54.31:792][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/EpicGames/ChattingClient/ChattingClient/Saved/Config/Windows/Editor.ini]
+[2022.03.10-01.54.31:792][  0]LogInit: Computer: DESKTOP-JG03A40
+[2022.03.10-01.54.31:792][  0]LogInit: User: lenovo
+[2022.03.10-01.54.31:792][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.03.10-01.54.31:792][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.03.10-01.54.31:792][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.03.10-01.54.31:792][  0]LogMemory: Platform Memory Stats for Windows
+[2022.03.10-01.54.31:792][  0]LogMemory: Process Physical Memory: 147.32 MB used, 147.32 MB peak
+[2022.03.10-01.54.31:792][  0]LogMemory: Process Virtual Memory: 122.12 MB used, 122.12 MB peak
+[2022.03.10-01.54.31:792][  0]LogMemory: Physical Memory: 14558.11 MB used,  1746.04 MB free, 16304.14 MB total
+[2022.03.10-01.54.31:792][  0]LogMemory: Virtual Memory: 134203752.00 MB used,  13978.88 MB free, 134217728.00 MB total
+[2022.03.10-01.54.31:804][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.03.10-01.54.31:916][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.03.10-01.54.31:917][  0]LogInit: Using OS detected language (ko-KR).
+[2022.03.10-01.54.31:917][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.03.10-01.54.31:933][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.03.10-01.54.32:143][  0]LogInit: Setting process to per monitor DPI aware
+[2022.03.10-01.54.32:179][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.10-01.54.32:200][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.03.10-01.54.32:201][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.03.10-01.54.32:559][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2022.03.10-01.54.32:563][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.03.10-01.54.32:564][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.03.10-01.54.32:564][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.03.10-01.54.32:564][  0]LogD3D11RHI: D3D11 adapters:
+[2022.03.10-01.54.32:689][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2022.03.10-01.54.32:689][  0]LogD3D11RHI:       5991/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1660 Ti
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     DeviceId    : 2191
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     SubSysId    : 3ffc17aa
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     DedicatedVideoMemory : 6282018816 bytes
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     SharedSystemMemory : 8548067328 bytes
+[2022.03.10-01.54.32:694][  0]LogD3D11RHI:     AdapterLuid : 0 61445
+[2022.03.10-01.54.32:699][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.03.10-01.54.32:699][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2022.03.10-01.54.32:699][  0]LogWindows: EnumDisplayDevices:
+[2022.03.10-01.54.32:699][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2022.03.10-01.54.32:700][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.03.10-01.54.32:701][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.03.10-01.54.32:702][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.03.10-01.54.32:702][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:   Driver Version: 471.41 (internal:30.0.14.7141, unified:471.41)
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:      Driver Date: 7-12-2021
+[2022.03.10-01.54.32:702][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1660 Ti
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     DeviceId    : 2191
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     SubSysId    : 3ffc17aa
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     DedicatedVideoMemory : 6282018816 bytes
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     SharedSystemMemory : 8548067328 bytes
+[2022.03.10-01.54.32:702][  0]LogD3D11RHI:     AdapterLuid : 0 61445
+[2022.03.10-01.54.32:789][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.03.10-01.54.32:789][  0]LogD3D11RHI: Async texture creation enabled
+[2022.03.10-01.54.32:789][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.03.10-01.54.32:812][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.03.10-01.54.32:908][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.03.10-01.54.33:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.03.10-01.54.33:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.03.10-01.54.33:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.03.10-01.54.33:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.03.10-01.54.33:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.03.10-01.54.33:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.03.10-01.54.33:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.03.10-01.54.33:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.03.10-01.54.33:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.03.10-01.54.33:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.03.10-01.54.33:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.03.10-01.54.33:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.03.10-01.54.33:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.03.10-01.54.33:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.03.10-01.54.33:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.03.10-01.54.33:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.03.10-01.54.33:700][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.03.10-01.54.33:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.03.10-01.54.33:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.03.10-01.54.33:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.03.10-01.54.33:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.03.10-01.54.33:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.03.10-01.54.33:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.03.10-01.54.33:744][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.03.10-01.54.33:757][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.03.10-01.54.33:816][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.03.10-01.54.33:870][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.03.10-01.54.33:870][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../ChattingClient/ChattingClient/Intermediate/Shaders/WorkingDirectory/10656/).
+[2022.03.10-01.54.33:870][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/80D2543943367CF6A415DF99202C929F/'.
+[2022.03.10-01.54.33:870][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.03.10-01.54.33:870][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.03.10-01.54.33:870][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.03.10-01.54.35:007][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.03.10-01.54.35:111][  0]LogDerivedDataCache: Loaded boot cache 0.10s 96MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.03.10-01.54.35:111][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.03.10-01.54.35:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ChattingClient/ChattingClient/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.03.10-01.54.35:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.03.10-01.54.35:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ChattingClient/ChattingClient/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.03.10-01.54.35:112][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.03.10-01.54.35:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.03.10-01.54.35:127][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.03.10-01.54.35:127][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.03.10-01.54.35:202][  0]LogDerivedDataCache: Speed tests for C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.07 seconds
+[2022.03.10-01.54.35:202][  0]LogDerivedDataCache: Display: Performance to C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.52ms. RandomReadSpeed=17.16MBs, RandomWriteSpeed=68.35MBs. Assigned SpeedClass 'Local'
+[2022.03.10-01.54.35:203][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.03.10-01.54.35:203][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.03.10-01.54.35:203][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.03.10-01.54.35:250][  0]LogSlate: Using FreeType 2.10.0
+[2022.03.10-01.54.35:251][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.03.10-01.54.35:281][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2022.03.10-01.54.35:508][  0]LogInit: Selected Device Profile: [Windows]
+[2022.03.10-01.54.35:508][  0]LogInit: Active device profile: [0000021A0718CE00][0000021A07A288C0 49] Windows
+[2022.03.10-01.54.35:508][  0]LogInit: Profiles: [0000021A0718CE00][0000021A07A288C0 49] Windows, [0000021A07166500][0000021A07A2CA40 49] WindowsNoEditor, [0000021A0718DD00][0000021A07A30BC0 49] WindowsServer, [0000021A07167300][0000021A07A34D40 49] WindowsClient, [0000021A0718EA00][0000021A07A38EC0 49] IOS, [0000021A07167900][0000021A07A3D040 49] iPadAir, [0000021A0718D500][0000021A07A411C0 49] iPadAir2, [0000021A07121200][0000021A07A49480 49] IPadPro, [0000021A07121300][0000021A07A454C0 49] iPadAir3, [0000021A07164C00][0000021A07A4D640 49] iPadAir4, [0000021A07121F00][0000021A07A517C0 49] iPadMini2, [0000021A07167100][0000021A07A55940 49] iPadMini3, [0000021A07122900][0000021A07A59AC0 49] iPadMini4, [0000021A07164F00][0000021A07A5C0C0 49] iPadMini5, [0000021A07154C00][0000021A07A64380 49] iPhone6, [0000021A07154D00][0000021A07A603C0 49] iPodTouch6, [0000021A0718E700][0000021A07A24640 49] iPhone7, [0000021A0718E900][0000021A07A68680 49] iPodTouch7, [0000021A07121100][0000021A07A6C7C0 49] iPhone5S, [0000021A0718EC00][0000021A07A70900 49] iPhone6Plus, [0000021A07123F00][0000021A07A78A80 49] iPhone6S, [0000021A07120100][0000021A07A7CC00 49] iPhone6SPlus, [0000021A07154B00][0000021A07A80D80 49] iPhone7Plus, [0000021A07122100][0000021A07A84F00 49] iPhoneSE, [0000021A07156900][0000021A07A89080 49] iPhone8, [0000021A07122200][0000021A07A8D200 49] iPhone8Plus, [0000021A07157B00][0000021A07A91380 49] iPhoneX, [0000021A07122300][0000021A07A95500 49] iPhoneXS, [0000021A07154F00][0000021A07A99680 49] iPhoneXSMax, [0000021A0718EF00][0000021A07A9D800 49] iPhoneXR, [0000021A07155700][0000021A07AA1980 49] iPhone11, [0000021A0718EE00][0000021A07AA5B00 49] iPhone11Pro, [0000021A07155900][0000021A07AA8100 49] iPhone11ProMax, [0000021A0718D200][0000021A07AAC280 49] iPhoneSE2, [0000021A07157D00][0000021A07AB0400 49] iPhone12Mini, [0000021A0718CB00][0000021A07AB4580 49] iPhone12, [0000021A07155D00][0000021A07AB8700 49] iPhone12Pro, [0000021A0718D400][0000021A07A74840 49] iPhone12ProMax, [0000021A07157700][0000021A07ABC980 49] iPadPro105, [0000021A0718DB00][0000021A07AC0AC0 49] iPadPro129, [0000021A07154700][0000021A07AC8C40 49] iPadPro97, [0000021A0718D300][0000021A07ACCDC0 49] iPadPro2_129, [0000021A07155200][0000021A07AD0F40 49] iPad5, [0000021A0718FF00][0000021A07AD50C0 49] iPad6, [0000021A07157A00][0000021A07AD9240 49] iPad7, [0000021A0718D900][0000021A07ADD3C0 49] iPad8, [0000021A07155400][0000021A07AE1540 49] iPadPro11, [0000021A0718F500][0000021A07AE56C0 49] iPadPro2_11, [0000021A07156300][0000021A07AE9840 49] iPadPro3_129, [0000021A0718CF00][0000021A07AED9C0 49] iPadPro4_129, [0000021A07155100][0000021A07AF1B40 49] AppleTV, [0000021A0718F600][0000021A07AF4140 49] AppleTV4K, [0000021A07154600][0000021A07AF82C0 49] TVOS, [0000021A0718F900][0000021A07AFC440 49] Mac, [0000021A07157200][0000021A07B005C0 49] MacClient, [0000021A0718FB00][0000021A07B04740 49] MacNoEditor, [0000021A07155300][0000021A07B088C0 49] MacServer, [0000021A0718E400][0000021A07AC4A00 49] Linux, [0000021A07156000][0000021A07B0CB40 49] LinuxAArch64, [0000021A0718FE00][0000021A07B10C80 49] LinuxNoEditor, [0000021A07157100][0000021A07B14DC0 49] LinuxAArch64NoEditor, [0000021A0718F200][0000021A07B1CF40 49] LinuxClient, [0000021A07156800][0000021A07B310C0 49] LinuxAArch64Client, [0000021A0718C400][0000021A07B35240 49] LinuxServer, [0000021A07154400][0000021A07B393C0 49] LinuxAArch64Server, [0000021A0718D100][0000021A07B3D540 49] Android, [0000021A07156700][0000021A07B416C0 49] Android_Low, [0000021A0718C800][0000021A07B45840 49] Android_Mid, [0000021A07154300][0000021A07B499C0 49] Android_High, [0000021A0718DC00][0000021A07B4DB40 49] Android_Default, [0000021A07157600][0000021A07B50140 49] Android_Adreno4xx, [0000021A0718E100][0000021A07B542C0 49] Android_Adreno5xx_Low, [0000021A07154900][0000021A07B58440 49] Android_Adreno5xx, [0000021A0718DF00][0000021A07B5C5C0 49] Android_Adreno6xx, [0000021A07155B00][0000021A07B60740 49] Android_Adreno6xx_Vulkan, [0000021A0718EB00][0000021A07B648C0 49] Android_Mali_T6xx, [0000021A07121900][0000021A07B68A40 49] Android_Mali_T7xx, [0000021A07167200][0000021A07B18B80 49] Android_Mali_T8xx, [0000021A07123C00][0000021A07B6CCC0 49] Android_Mali_G71, [0000021A07167D00][0000021A07B70E00 49] Android_Mali_G72, [0000021A07123900][0000021A07B74F40 49] Android_Mali_G72_Vulkan, [0000021A07166300][0000021A07B7D0C0 49] Android_Mali_G76, [0000021A07121A00][0000021A07B81240 49] Android_Mali_G76_Vulkan, [0000021A07164400][0000021A07B853C0 49] Android_Mali_G77, [0000021A07123500][0000021A07B89540 49] Android_Mali_G77_Vulkan, [0000021A07166100][0000021A07B8D6C0 49] Android_Mali_G78, [0000021A07121000][0000021A07B91840 49] Android_Mali_G78_Vulkan, [0000021A07166400][0000021A07B959C0 49] Android_Mali_G710, [0000021A07121500][0000021A07B99B40 49] Android_Mali_G710_Vulkan, [0000021A07167600][0000021A07B9C140 49] Android_Vulkan_SM5, [0000021A07121800][0000021A07BA02C0 49] Android_PowerVR_G6xxx, [0000021A07167000][0000021A07BA4440 49] Android_PowerVR_GT7xxx, [0000021A07121B00][0000021A07BA85C0 49] Android_PowerVR_GE8xxx, [0000021A07167B00][0000021A07BAC740 49] Android_PowerVR_GM9xxx, [0000021A07121E00][0000021A07BB08C0 49] Android_PowerVR_GM9xxx_Vulkan, [0000021A07165700][0000021A07BB4A40 49] Android_TegraK1, [0000021A07123B00][0000021A07BB8BC0 49] Android_Unknown_Vulkan, [0000021A07165100][0000021A07BBCD40 49] Lumin, [0000021A07120600][0000021A07B78E80 49] Lumin_Desktop, [0000021A07156200][0000021A07BC0FC0 49] HoloLens, 
+[2022.03.10-01.54.35:674][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.03.10-01.54.35:674][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.03.10-01.54.35:674][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.03.10-01.54.35:674][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.03.10-01.54.35:674][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.03.10-01.54.35:697][  0]LogNetVersion: ChattingClient 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1007274363)
+[2022.03.10-01.54.36:210][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.03.10-01.54.36:270][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.03.10-01.54.36:275][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2022.03.10-01.54.36:275][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2022.03.10-01.54.36:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.03.10-01.54.36:755][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 3FB88B774B74EAB6DDE86E9C19B9A1BA | Instance: CC9CE5054890838A5156B49FDAD1518E (DESKTOP-JG03A40-10656).
+[2022.03.10-01.54.36:927][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.03.10-01.54.36:933][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.03.10-01.54.36:952][  0]LogPython: Using Python 3.7.7
+[2022.03.10-01.54.38:009][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.38:009][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.38:015][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.38:021][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.38:035][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.38:046][  0]LogUProjectInfo: Found projects:
+[2022.03.10-01.54.38:306][  0]LogOpenImageDenoise: OIDN starting up
+[2022.03.10-01.54.38:359][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.03.10-01.54.38:397][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.03.10-01.54.38:397][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.03.10-01.54.38:594][  0]LogCollectionManager: Loaded 0 collections in 0.001522 seconds
+[2022.03.10-01.54.38:632][  0]LogFileCache: Scanning file cache for directory 'C:/EpicGames/ChattingClient/ChattingClient/Saved/Collections/' took 0.00s
+[2022.03.10-01.54.38:632][  0]LogFileCache: Scanning file cache for directory 'C:/EpicGames/ChattingClient/ChattingClient/Content/Developers/lenovo/Collections/' took 0.00s
+[2022.03.10-01.54.38:632][  0]LogFileCache: Scanning file cache for directory 'C:/EpicGames/ChattingClient/ChattingClient/Content/Collections/' took 0.00s
+[2022.03.10-01.54.38:632][  0]LogOcInput: OculusInput pre-init called
+[2022.03.10-01.54.38:952][  0]LogClass: Display: UInt32Property FSendBuffer::LeftPos is not initialized properly. Module:ChattingClient File:Public/SocketComponent.h
+[2022.03.10-01.54.38:952][  0]LogClass: Display: UInt32Property FSendBuffer::RightPos is not initialized properly. Module:ChattingClient File:Public/SocketComponent.h
+[2022.03.10-01.54.38:952][  0]LogClass: Display: 2 Uninitialized script struct members found including 0 object properties
+[2022.03.10-01.54.38:953][  0]LogEngine: Initializing Engine...
+[2022.03.10-01.54.38:957][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2022.03.10-01.54.38:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.03.10-01.54.38:957][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.03.10-01.54.38:958][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.03.10-01.54.39:100][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.03.10-01.54.39:112][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.03.10-01.54.39:113][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.03.10-01.54.39:120][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.03.10-01.54.39:121][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.03.10-01.54.39:121][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.03.10-01.54.39:121][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.10-01.54.39:122][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.10-01.54.39:122][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.10-01.54.39:122][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.10-01.54.39:122][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.10-01.54.39:122][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.10-01.54.39:146][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.10-01.54.39:146][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.03.10-01.54.39:413][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.03.10-01.54.39:415][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.10-01.54.39:420][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.10-01.54.39:420][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.10-01.54.39:421][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.10-01.54.39:421][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.10-01.54.39:421][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.10-01.54.39:423][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.10-01.54.39:423][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.10-01.54.39:423][  0]LogInit: FAudioDevice initialized.
+[2022.03.10-01.54.39:423][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.03.10-01.54.39:423][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.03.10-01.54.39:496][  0]LogDerivedDataCache: Saved boot cache 0.07s 96MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.03.10-01.54.39:496][  0]LogInit: Texture streaming: Enabled
+[2022.03.10-01.54.39:522][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2022.03.10-01.54.39:531][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.03.10-01.54.39:531][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4CB0E1EA-45EA-2262-2125-E78B08D29A4A}
+[2022.03.10-01.54.39:531][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.03.10-01.54.39:538][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.03.10-01.54.39:582][  0]LogInit: Transaction tracking system initialized
+[2022.03.10-01.54.39:629][  0]BlueprintLog: New page: 에디터 로드
+[2022.03.10-01.54.39:771][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.03.10-01.54.39:845][  0]TimingProfiler: Initialize
+[2022.03.10-01.54.39:845][  0]TimingProfiler: OnSessionChanged
+[2022.03.10-01.54.39:845][  0]LoadingProfiler: Initialize
+[2022.03.10-01.54.39:845][  0]LoadingProfiler: OnSessionChanged
+[2022.03.10-01.54.39:845][  0]NetworkingProfiler: Initialize
+[2022.03.10-01.54.39:845][  0]NetworkingProfiler: OnSessionChanged
+[2022.03.10-01.54.39:845][  0]MemoryProfiler: Initialize
+[2022.03.10-01.54.39:845][  0]MemoryProfiler: OnSessionChanged
+[2022.03.10-01.54.40:162][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.03.10-01.54.40:162][  0]LogCook: Display: Mobile HDR setting 1
+[2022.03.10-01.54.40:491][  0]LogFileCache: Scanning file cache for directory 'C:/EpicGames/ChattingClient/ChattingClient/Content/' took 0.00s
+[2022.03.10-01.54.40:706][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.03.10-01.54.40:713][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.03.10-01.54.40:713][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.133
+[2022.03.10-01.54.40:713][  0]Cmd: MAP LOAD FILE="../../../../ChattingClient/ChattingClient/Content/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.03.10-01.54.40:714][  0]LightingResults: New page: 라이팅 빌드
+[2022.03.10-01.54.40:716][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.03.10-01.54.40:716][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.10-01.54.40:716][  0]MapCheck: New page: 맵 체크
+[2022.03.10-01.54.40:716][  0]LightingResults: New page: 라이팅 빌드
+[2022.03.10-01.54.40:721][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.10-01.54.40:724][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.10-01.54.40:742][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2022.03.10-01.54.40:743][  0]LogAIModule: Creating AISystem for world MainLevel
+[2022.03.10-01.54.40:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.03.10-01.54.40:749][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.03.10-01.54.40:750][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.03.10-01.54.40:750][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.27ms.
+[2022.03.10-01.54.40:750][  0]LogFileHelpers: Loading map 'MainLevel' took 0.037
+[2022.03.10-01.54.40:756][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.175
+[2022.03.10-01.54.41:260][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.03.10-01.54.41:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.10-01.54.41:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.10-01.54.41:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.10-01.54.41:391][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.10-01.54.41:415][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3837 classes and 931 folders.
+[2022.03.10-01.54.41:420][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.03.10-01.54.41:431][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.03.10-01.54.41:431][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:431][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.03.10-01.54.41:431][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:431][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2022.03.10-01.54.41:431][  0]LogPakFile: OnPakFileMounted2Time == 0.000050
+[2022.03.10-01.54.41:437][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.03.10-01.54.41:437][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:437][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.03.10-01.54.41:437][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:437][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2022.03.10-01.54.41:437][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2022.03.10-01.54.41:442][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.03.10-01.54.41:442][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:442][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.03.10-01.54.41:442][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:442][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2022.03.10-01.54.41:442][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.03.10-01.54.41:447][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.03.10-01.54.41:447][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:447][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.03.10-01.54.41:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/StarterContent.upack)
+[2022.03.10-01.54.41:447][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.03.10-01.54.41:452][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.03.10-01.54.41:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.03.10-01.54.41:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2022.03.10-01.54.41:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2022.03.10-01.54.41:456][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.03.10-01.54.41:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.03.10-01.54.41:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2022.03.10-01.54.41:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.03.10-01.54.41:461][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.03.10-01.54.41:461][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:461][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.03.10-01.54.41:461][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:461][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2022.03.10-01.54.41:461][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2022.03.10-01.54.41:466][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.03.10-01.54.41:466][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:466][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.03.10-01.54.41:466][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:466][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2022.03.10-01.54.41:466][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2022.03.10-01.54.41:471][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.03.10-01.54.41:471][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:471][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.03.10-01.54.41:471][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:471][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2022.03.10-01.54.41:471][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.03.10-01.54.41:478][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.03.10-01.54.41:478][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:478][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.03.10-01.54.41:478][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:478][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2022.03.10-01.54.41:478][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.03.10-01.54.41:482][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.03.10-01.54.41:482][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:482][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.03.10-01.54.41:482][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:482][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2022.03.10-01.54.41:482][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.03.10-01.54.41:488][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.03.10-01.54.41:488][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:488][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.03.10-01.54.41:488][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:488][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2022.03.10-01.54.41:488][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.03.10-01.54.41:492][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.03.10-01.54.41:492][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:492][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.03.10-01.54.41:492][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:492][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2022.03.10-01.54.41:492][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.03.10-01.54.41:496][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.03.10-01.54.41:496][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:496][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.03.10-01.54.41:496][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:496][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2022.03.10-01.54.41:496][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.03.10-01.54.41:502][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.03.10-01.54.41:502][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:502][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.03.10-01.54.41:503][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:503][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2022.03.10-01.54.41:503][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2022.03.10-01.54.41:507][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.03.10-01.54.41:507][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:507][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.03.10-01.54.41:507][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:507][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2022.03.10-01.54.41:507][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.03.10-01.54.41:514][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.03.10-01.54.41:514][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:514][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.03.10-01.54.41:514][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:514][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.03.10-01.54.41:514][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.03.10-01.54.41:519][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.03.10-01.54.41:519][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:519][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.03.10-01.54.41:519][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:519][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2022.03.10-01.54.41:519][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2022.03.10-01.54.41:526][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.03.10-01.54.41:526][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:526][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.03.10-01.54.41:526][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:526][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2022.03.10-01.54.41:526][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2022.03.10-01.54.41:535][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.03.10-01.54.41:535][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:535][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.03.10-01.54.41:535][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:535][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2022.03.10-01.54.41:535][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.03.10-01.54.41:542][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.03.10-01.54.41:542][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:542][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.03.10-01.54.41:542][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:542][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2022.03.10-01.54.41:542][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.03.10-01.54.41:549][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.03.10-01.54.41:549][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:549][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.03.10-01.54.41:549][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:549][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2022.03.10-01.54.41:549][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.03.10-01.54.41:556][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.03.10-01.54.41:556][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:556][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.03.10-01.54.41:556][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:556][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2022.03.10-01.54.41:556][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.03.10-01.54.41:563][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.03.10-01.54.41:563][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:563][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.03.10-01.54.41:563][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:563][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2022.03.10-01.54.41:563][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2022.03.10-01.54.41:572][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.03.10-01.54.41:572][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:572][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.03.10-01.54.41:572][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:572][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2022.03.10-01.54.41:572][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.03.10-01.54.41:578][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.03.10-01.54.41:578][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.03.10-01.54.41:578][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.03.10-01.54.41:578][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/EpicGames/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.03.10-01.54.41:578][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/EpicGames/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2022.03.10-01.54.41:578][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.03.10-01.54.41:918][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.03.10-01.54.41:922][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2022.03.10-01.54.42:019][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.03.10-01.54.42:024][  0]LogSlate: Took 0.005593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.03.10-01.54.42:032][  0]LogSlate: Took 0.006871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.03.10-01.54.42:039][  0]LogSlate: Took 0.006185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.03.10-01.54.42:040][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.03.10-01.54.42:203][  0]LogRenderer: Reallocating scene render targets to support 940x400 Format 10 NumSamples 1 (Frame:1).
+[2022.03.10-01.54.42:252][  0]LogSlate: Took 0.001101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.10-01.54.42:338][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.03.10-01.54.42:338][  0]LogLoad: (Engine Initialization) Total time: 12.76 seconds
+[2022.03.10-01.54.42:338][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.03.10-01.54.42:488][  0]LogAssetRegistry: Asset discovery search completed in 7.2077 seconds
+[2022.03.10-01.54.42:501][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.03.10-01.54.42:502][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.03.10-01.54.42:534][  1]LogRenderer: Reallocating scene render targets to support 940x416 Format 10 NumSamples 1 (Frame:3).
+[2022.03.10-01.54.54:948][133]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.10-01.54.54:955][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.10-01.54.54:955][133]PIE: New page: PIE 세션: MainLevel (2022. 3. 10. 오후 7:54:54)
+[2022.03.10-01.54.54:957][133]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.03.10-01.54.54:958][133]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.03.10-01.54.54:958][133]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2022.03.10-01.54.54:959][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001108s)
+[2022.03.10-01.54.54:960][133]LogAIModule: Creating AISystem for world MainLevel
+[2022.03.10-01.54.54:960][133]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2022.03.10-01.54.54:960][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.002059s)
+[2022.03.10-01.54.54:966][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.03.10-01.54.54:970][133]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.10-01.54.54:970][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.10-01.54.54:970][133]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.10-01.54.54:970][133]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.10-01.54.54:970][133]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.10-01.54.54:970][133]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.10-01.54.54:981][133]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.10-01.54.54:981][133]LogAudioMixer: Display: 1: FrontRight
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.10-01.54.55:009][133]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.10-01.54.55:009][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.10-01.54.55:010][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.10-01.54.55:010][133]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.10-01.54.55:010][133]LogInit: FAudioDevice initialized.
+[2022.03.10-01.54.55:010][133]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainLevel'.
+[2022.03.10-01.54.55:020][133]LogLoad: Game class is 'GameModeBase'
+[2022.03.10-01.54.55:022][133]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2022.03.10-10.54.55
+[2022.03.10-01.54.55:022][133]LogWorld: Bringing up level for play took: 0.000259
+[2022.03.10-01.54.55:022][133]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.03.10-01.54.55:035][133]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.03.10-01.54.55:036][133]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.03.10-01.54.55:036][133]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.03.10-01.54.55:036][133]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2022.03.10-01.54.55:037][133]PIE: 서버가 로그인했습니다.
+[2022.03.10-01.54.55:039][133]PIE: 에디터에서 플레이 총 시작 시간 0.086초입니다.
+[2022.03.10-01.54.55:040][133]LogTemp: From Server: Welcome to chatting server!
+Please login using Login [Username] command
+[2022.03.10-01.54.55:040][133]LogTemp: Packet Complete
+[2022.03.10-01.54.55:061][134]LogTemp: Packet Complete
+[2022.03.10-01.54.55:084][135]LogTemp: Packet Complete
+[2022.03.10-01.54.55:100][136]LogTemp: Packet Complete
+[2022.03.10-01.54.55:113][137]LogTemp: Packet Complete
+[2022.03.10-01.54.55:130][138]LogTemp: Packet Complete
+[2022.03.10-01.54.55:147][139]LogTemp: Packet Complete
+[2022.03.10-01.54.55:165][140]LogTemp: Packet Complete
+[2022.03.10-01.54.55:180][141]LogTemp: Packet Complete
+[2022.03.10-01.54.55:196][142]LogTemp: Packet Complete
+[2022.03.10-01.54.55:216][143]LogTemp: Packet Complete
+[2022.03.10-01.54.55:234][144]LogTemp: Packet Complete
+[2022.03.10-01.54.55:249][145]LogTemp: Packet Complete
+[2022.03.10-01.54.55:266][146]LogTemp: Packet Complete
+[2022.03.10-01.54.55:281][147]LogTemp: Packet Complete
+[2022.03.10-01.54.55:298][148]LogTemp: Packet Complete
+[2022.03.10-01.54.55:317][149]LogTemp: Packet Complete
+[2022.03.10-01.54.55:330][150]LogTemp: Packet Complete
+[2022.03.10-01.54.55:347][151]LogTemp: Packet Complete
+[2022.03.10-01.54.55:363][152]LogTemp: Packet Complete
+[2022.03.10-01.54.55:380][153]LogTemp: Packet Complete
+[2022.03.10-01.54.55:398][154]LogTemp: Packet Complete
+[2022.03.10-01.54.55:414][155]LogTemp: Packet Complete
+[2022.03.10-01.54.55:431][156]LogTemp: Packet Complete
+[2022.03.10-01.54.55:446][157]LogTemp: Packet Complete
+[2022.03.10-01.54.55:464][158]LogTemp: Packet Complete
+[2022.03.10-01.54.55:480][159]LogTemp: Packet Complete
+[2022.03.10-01.54.55:497][160]LogTemp: Packet Complete
+[2022.03.10-01.54.55:513][161]LogTemp: Packet Complete
+[2022.03.10-01.54.55:530][162]LogTemp: Packet Complete
+[2022.03.10-01.54.55:546][163]LogTemp: Packet Complete
+[2022.03.10-01.54.55:563][164]LogTemp: Packet Complete
+[2022.03.10-01.54.55:580][165]LogTemp: Packet Complete
+[2022.03.10-01.54.55:596][166]LogTemp: Packet Complete
+[2022.03.10-01.54.55:614][167]LogTemp: Packet Complete
+[2022.03.10-01.54.55:630][168]LogTemp: Packet Complete
+[2022.03.10-01.54.55:646][169]LogTemp: Packet Complete
+[2022.03.10-01.54.55:663][170]LogTemp: Packet Complete
+[2022.03.10-01.54.55:679][171]LogTemp: Packet Complete
+[2022.03.10-01.54.55:696][172]LogTemp: Packet Complete
+[2022.03.10-01.54.55:713][173]LogTemp: Packet Complete
+[2022.03.10-01.54.55:730][174]LogTemp: Packet Complete
+[2022.03.10-01.54.55:746][175]LogTemp: Packet Complete
+[2022.03.10-01.54.55:764][176]LogTemp: Packet Complete
+[2022.03.10-01.54.55:780][177]LogTemp: Packet Complete
+[2022.03.10-01.54.55:797][178]LogTemp: Packet Complete
+[2022.03.10-01.54.55:813][179]LogTemp: Packet Complete
+[2022.03.10-01.54.55:831][180]LogTemp: Packet Complete
+[2022.03.10-01.54.55:846][181]LogTemp: Packet Complete
+[2022.03.10-01.54.55:863][182]LogTemp: Packet Complete
+[2022.03.10-01.54.55:880][183]LogTemp: Packet Complete
+[2022.03.10-01.54.55:896][184]LogTemp: Packet Complete
+[2022.03.10-01.54.55:913][185]LogTemp: Packet Complete
+[2022.03.10-01.54.55:947][187]LogTemp: Packet Complete
+[2022.03.10-01.54.55:963][188]LogTemp: Packet Complete
+[2022.03.10-01.54.55:980][189]LogTemp: Packet Complete
+[2022.03.10-01.54.55:996][190]LogTemp: Packet Complete
+[2022.03.10-01.54.56:015][191]LogTemp: Packet Complete
+[2022.03.10-01.54.56:030][192]LogTemp: Packet Complete
+[2022.03.10-01.54.56:047][193]LogTemp: Packet Complete
+[2022.03.10-01.54.56:063][194]LogTemp: Packet Complete
+[2022.03.10-01.54.56:079][195]LogTemp: Packet Complete
+[2022.03.10-01.54.56:096][196]LogTemp: Packet Complete
+[2022.03.10-01.54.56:114][197]LogTemp: Packet Complete
+[2022.03.10-01.54.56:129][198]LogTemp: Packet Complete
+[2022.03.10-01.54.56:146][199]LogTemp: Packet Complete
+[2022.03.10-01.54.56:163][200]LogTemp: Packet Complete
+[2022.03.10-01.54.56:179][201]LogTemp: Packet Complete
+[2022.03.10-01.54.56:196][202]LogTemp: Packet Complete
+[2022.03.10-01.54.56:213][203]LogTemp: Packet Complete
+[2022.03.10-01.54.56:229][204]LogTemp: Packet Complete
+[2022.03.10-01.54.56:246][205]LogTemp: Packet Complete
+[2022.03.10-01.54.56:263][206]LogTemp: Packet Complete
+[2022.03.10-01.54.56:280][207]LogTemp: Packet Complete
+[2022.03.10-01.54.56:296][208]LogTemp: Packet Complete
+[2022.03.10-01.54.56:313][209]LogTemp: Packet Complete
+[2022.03.10-01.54.56:330][210]LogTemp: Packet Complete
+[2022.03.10-01.54.56:346][211]LogTemp: Packet Complete
+[2022.03.10-01.54.56:363][212]LogTemp: Packet Complete
+[2022.03.10-01.54.56:380][213]LogTemp: Packet Complete
+[2022.03.10-01.54.56:397][214]LogTemp: Packet Complete
+[2022.03.10-01.54.56:414][215]LogTemp: Packet Complete
+[2022.03.10-01.54.56:430][216]LogTemp: Packet Complete
+[2022.03.10-01.54.56:446][217]LogTemp: Packet Complete
+[2022.03.10-01.54.56:463][218]LogTemp: Packet Complete
+[2022.03.10-01.54.56:480][219]LogTemp: Packet Complete
+[2022.03.10-01.54.56:496][220]LogTemp: Packet Complete
+[2022.03.10-01.54.56:513][221]LogTemp: Packet Complete
+[2022.03.10-01.54.56:529][222]LogTemp: Packet Complete
+[2022.03.10-01.54.56:546][223]LogTemp: Packet Complete
+[2022.03.10-01.54.56:563][224]LogTemp: Packet Complete
+[2022.03.10-01.54.56:579][225]LogTemp: Packet Complete
+[2022.03.10-01.54.56:596][226]LogTemp: Packet Complete
+[2022.03.10-01.54.56:613][227]LogTemp: Packet Complete
+[2022.03.10-01.54.56:629][228]LogTemp: Packet Complete
+[2022.03.10-01.54.56:646][229]LogTemp: Packet Complete
+[2022.03.10-01.54.56:663][230]LogTemp: Packet Complete
+[2022.03.10-01.54.56:680][231]LogTemp: Packet Complete
+[2022.03.10-01.54.56:697][232]LogTemp: Packet Complete
+[2022.03.10-01.54.56:713][233]LogTemp: Packet Complete
+[2022.03.10-01.54.56:730][234]LogTemp: Packet Complete
+[2022.03.10-01.54.56:746][235]LogTemp: Packet Complete
+[2022.03.10-01.54.56:763][236]LogTemp: Packet Complete
+[2022.03.10-01.54.56:780][237]LogTemp: Packet Complete
+[2022.03.10-01.54.56:796][238]LogTemp: Packet Complete
+[2022.03.10-01.54.56:813][239]LogTemp: Packet Complete
+[2022.03.10-01.54.56:829][240]LogTemp: Packet Complete
+[2022.03.10-01.54.56:846][241]LogTemp: Packet Complete
+[2022.03.10-01.54.56:863][242]LogTemp: Packet Complete
+[2022.03.10-01.54.56:879][243]LogTemp: Packet Complete
+[2022.03.10-01.54.56:896][244]LogTemp: Packet Complete
+[2022.03.10-01.54.56:913][245]LogTemp: Packet Complete
+[2022.03.10-01.54.56:934][246]LogTemp: Packet Complete
+[2022.03.10-01.54.56:946][247]LogTemp: Packet Complete
+[2022.03.10-01.54.56:963][248]LogTemp: Packet Complete
+[2022.03.10-01.54.56:980][249]LogTemp: Packet Complete
+[2022.03.10-01.54.56:997][250]LogTemp: Packet Complete
+[2022.03.10-01.54.57:013][251]LogTemp: Packet Complete
+[2022.03.10-01.54.57:029][252]LogTemp: Packet Complete
+[2022.03.10-01.54.57:046][253]LogTemp: Packet Complete
+[2022.03.10-01.54.57:063][254]LogTemp: Packet Complete
+[2022.03.10-01.54.57:079][255]LogTemp: Packet Complete
+[2022.03.10-01.54.57:096][256]LogTemp: Packet Complete
+[2022.03.10-01.54.57:113][257]LogTemp: Packet Complete
+[2022.03.10-01.54.57:129][258]LogTemp: Packet Complete
+[2022.03.10-01.54.57:146][259]LogTemp: Packet Complete
+[2022.03.10-01.54.57:163][260]LogTemp: Packet Complete
+[2022.03.10-01.54.57:179][261]LogTemp: Packet Complete
+[2022.03.10-01.54.57:196][262]LogTemp: Packet Complete
+[2022.03.10-01.54.57:213][263]LogTemp: Packet Complete
+[2022.03.10-01.54.57:229][264]LogTemp: Packet Complete
+[2022.03.10-01.54.57:246][265]LogTemp: Packet Complete
+[2022.03.10-01.54.57:263][266]LogTemp: Packet Complete
+[2022.03.10-01.54.57:279][267]LogTemp: Packet Complete
+[2022.03.10-01.54.57:296][268]LogTemp: Packet Complete
+[2022.03.10-01.54.57:313][269]LogTemp: Packet Complete
+[2022.03.10-01.54.57:330][270]LogTemp: Packet Complete
+[2022.03.10-01.54.57:346][271]LogTemp: Packet Complete
+[2022.03.10-01.54.57:363][272]LogTemp: Packet Complete
+[2022.03.10-01.54.57:380][273]LogTemp: Packet Complete
+[2022.03.10-01.54.57:397][274]LogTemp: Packet Complete
+[2022.03.10-01.54.57:413][275]LogTemp: Packet Complete
+[2022.03.10-01.54.57:429][276]LogTemp: Packet Complete
+[2022.03.10-01.54.57:447][277]LogTemp: Packet Complete
+[2022.03.10-01.54.57:463][278]LogTemp: Packet Complete
+[2022.03.10-01.54.57:479][279]LogTemp: Packet Complete
+[2022.03.10-01.54.57:496][280]LogTemp: Packet Complete
+[2022.03.10-01.54.57:513][281]LogTemp: Packet Complete
+[2022.03.10-01.54.57:529][282]LogTemp: Packet Complete
+[2022.03.10-01.54.57:546][283]LogTemp: Packet Complete
+[2022.03.10-01.54.57:563][284]LogTemp: Packet Complete
+[2022.03.10-01.54.57:580][285]LogTemp: Packet Complete
+[2022.03.10-01.54.57:598][286]LogTemp: Packet Complete
+[2022.03.10-01.54.57:613][287]LogTemp: Packet Complete
+[2022.03.10-01.54.57:630][288]LogTemp: Packet Complete
+[2022.03.10-01.54.57:646][289]LogTemp: Packet Complete
+[2022.03.10-01.54.57:663][290]LogTemp: Packet Complete
+[2022.03.10-01.54.57:680][291]LogTemp: Packet Complete
+[2022.03.10-01.54.57:697][292]LogTemp: Packet Complete
+[2022.03.10-01.54.57:713][293]LogTemp: Packet Complete
+[2022.03.10-01.54.57:729][294]LogTemp: Packet Complete
+[2022.03.10-01.54.57:753][295]LogTemp: Packet Complete
+[2022.03.10-01.54.57:763][296]LogTemp: Packet Complete
+[2022.03.10-01.54.57:779][297]LogTemp: Packet Complete
+[2022.03.10-01.54.57:796][298]LogTemp: Packet Complete
+[2022.03.10-01.54.57:813][299]LogTemp: Packet Complete
+[2022.03.10-01.54.57:829][300]LogTemp: Input Send Msg To Queue: login qwe
+[2022.03.10-01.54.57:834][300]LogTemp: Packet Complete
+[2022.03.10-01.54.57:834][300]LogTemp: Send: login qwe
+
+[2022.03.10-01.54.57:846][301]LogTemp: From Server: Now you will be called: [qwe]
+Please Checking Command list using h or H
+[2022.03.10-01.54.57:847][301]LogTemp: Find Mail Chatting Message
+[2022.03.10-01.54.57:847][301]LogTemp: Packet Complete
+[2022.03.10-01.54.57:863][302]LogTemp: Packet Complete
+[2022.03.10-01.54.57:879][303]LogTemp: Packet Complete
+[2022.03.10-01.54.57:896][304]LogTemp: Packet Complete
+[2022.03.10-01.54.57:913][305]LogTemp: Packet Complete
+[2022.03.10-01.54.57:930][306]LogTemp: Packet Complete
+[2022.03.10-01.54.57:949][307]LogTemp: Packet Complete
+[2022.03.10-01.54.57:965][308]LogTemp: Packet Complete
+[2022.03.10-01.54.57:980][309]LogTemp: Packet Complete
+[2022.03.10-01.54.57:996][310]LogTemp: Packet Complete
+[2022.03.10-01.54.58:013][311]LogTemp: Packet Complete
+[2022.03.10-01.54.58:030][312]LogTemp: Packet Complete
+[2022.03.10-01.54.58:048][313]LogTemp: Packet Complete
+[2022.03.10-01.54.58:063][314]LogTemp: Packet Complete
+[2022.03.10-01.54.58:080][315]LogTemp: Packet Complete
+[2022.03.10-01.54.58:096][316]LogTemp: Packet Complete
+[2022.03.10-01.54.58:113][317]LogTemp: Packet Complete
+[2022.03.10-01.54.58:130][318]LogTemp: Packet Complete
+[2022.03.10-01.54.58:146][319]LogTemp: Packet Complete
+[2022.03.10-01.54.58:165][320]LogTemp: Packet Complete
+[2022.03.10-01.54.58:180][321]LogTemp: Packet Complete
+[2022.03.10-01.54.58:197][322]LogTemp: Packet Complete
+[2022.03.10-01.54.58:214][323]LogTemp: Packet Complete
+[2022.03.10-01.54.58:231][324]LogTemp: Packet Complete
+[2022.03.10-01.54.58:248][325]LogTemp: Packet Complete
+[2022.03.10-01.54.58:264][326]LogTemp: Packet Complete
+[2022.03.10-01.54.58:280][327]LogTemp: Packet Complete
+[2022.03.10-01.54.58:297][328]LogTemp: Packet Complete
+[2022.03.10-01.54.58:315][329]LogTemp: Packet Complete
+[2022.03.10-01.54.58:330][330]LogTemp: Packet Complete
+[2022.03.10-01.54.58:346][331]LogTemp: Packet Complete
+[2022.03.10-01.54.58:364][332]LogTemp: Packet Complete
+[2022.03.10-01.54.58:381][333]LogTemp: Packet Complete
+[2022.03.10-01.54.58:397][334]LogTemp: Packet Complete
+[2022.03.10-01.54.58:413][335]LogTemp: Packet Complete
+[2022.03.10-01.54.58:429][336]LogTemp: Packet Complete
+[2022.03.10-01.54.58:446][337]LogTemp: Packet Complete
+[2022.03.10-01.54.58:463][338]LogTemp: Packet Complete
+[2022.03.10-01.54.58:479][339]LogTemp: Packet Complete
+[2022.03.10-01.54.58:497][340]LogTemp: Packet Complete
+[2022.03.10-01.54.58:513][341]LogTemp: Packet Complete
+[2022.03.10-01.54.58:530][342]LogTemp: Packet Complete
+[2022.03.10-01.54.58:547][343]LogTemp: Packet Complete
+[2022.03.10-01.54.58:563][344]LogTemp: Packet Complete
+[2022.03.10-01.54.58:579][345]LogTemp: Packet Complete
+[2022.03.10-01.54.58:598][346]LogTemp: Packet Complete
+[2022.03.10-01.54.58:616][347]LogTemp: Packet Complete
+[2022.03.10-01.54.58:630][348]LogTemp: Packet Complete
+[2022.03.10-01.54.58:647][349]LogTemp: Packet Complete
+[2022.03.10-01.54.58:666][350]LogTemp: Packet Complete
+[2022.03.10-01.54.58:682][351]LogTemp: Packet Complete
+[2022.03.10-01.54.58:697][352]LogTemp: Packet Complete
+[2022.03.10-01.54.58:713][353]LogTemp: Packet Complete
+[2022.03.10-01.54.58:730][354]LogTemp: Packet Complete
+[2022.03.10-01.54.58:747][355]LogTemp: Packet Complete
+[2022.03.10-01.54.58:763][356]LogTemp: Packet Complete
+[2022.03.10-01.54.58:780][357]LogTemp: Packet Complete
+[2022.03.10-01.54.58:796][358]LogTemp: Packet Complete
+[2022.03.10-01.54.58:814][359]LogTemp: Packet Complete
+[2022.03.10-01.54.58:831][360]LogTemp: Packet Complete
+[2022.03.10-01.54.58:847][361]LogTemp: Packet Complete
+[2022.03.10-01.54.58:864][362]LogTemp: Packet Complete
+[2022.03.10-01.54.58:879][363]LogTemp: Packet Complete
+[2022.03.10-01.54.58:896][364]LogTemp: Packet Complete
+[2022.03.10-01.54.58:913][365]LogTemp: Packet Complete
+[2022.03.10-01.54.58:929][366]LogTemp: Packet Complete
+[2022.03.10-01.54.58:946][367]LogTemp: Packet Complete
+[2022.03.10-01.54.58:965][368]LogTemp: Packet Complete
+[2022.03.10-01.54.58:980][369]LogTemp: Packet Complete
+[2022.03.10-01.54.58:996][370]LogTemp: Packet Complete
+[2022.03.10-01.54.59:013][371]LogTemp: Packet Complete
+[2022.03.10-01.54.59:029][372]LogTemp: Packet Complete
+[2022.03.10-01.54.59:047][373]LogTemp: Packet Complete
+[2022.03.10-01.54.59:063][374]LogTemp: Packet Complete
+[2022.03.10-01.54.59:080][375]LogTemp: Packet Complete
+[2022.03.10-01.54.59:097][376]LogTemp: Packet Complete
+[2022.03.10-01.54.59:113][377]LogTemp: Packet Complete
+[2022.03.10-01.54.59:129][378]LogTemp: Packet Complete
+[2022.03.10-01.54.59:146][379]LogTemp: Packet Complete
+[2022.03.10-01.54.59:163][380]LogTemp: Packet Complete
+[2022.03.10-01.54.59:179][381]LogTemp: Packet Complete
+[2022.03.10-01.54.59:196][382]LogTemp: Packet Complete
+[2022.03.10-01.54.59:213][383]LogTemp: Packet Complete
+[2022.03.10-01.54.59:229][384]LogTemp: Packet Complete
+[2022.03.10-01.54.59:246][385]LogTemp: Packet Complete
+[2022.03.10-01.54.59:263][386]LogTemp: Packet Complete
+[2022.03.10-01.54.59:279][387]LogTemp: Packet Complete
+[2022.03.10-01.54.59:297][388]LogTemp: Packet Complete
+[2022.03.10-01.54.59:314][389]LogTemp: Packet Complete
+[2022.03.10-01.54.59:331][390]LogTemp: Packet Complete
+[2022.03.10-01.54.59:348][391]LogTemp: Packet Complete
+[2022.03.10-01.54.59:364][392]LogTemp: Packet Complete
+[2022.03.10-01.54.59:380][393]LogTemp: Packet Complete
+[2022.03.10-01.54.59:396][394]LogTemp: Packet Complete
+[2022.03.10-01.54.59:414][395]LogTemp: Packet Complete
+[2022.03.10-01.54.59:429][396]LogTemp: Packet Complete
+[2022.03.10-01.54.59:446][397]LogTemp: Packet Complete
+[2022.03.10-01.54.59:463][398]LogTemp: Packet Complete
+[2022.03.10-01.54.59:479][399]LogTemp: Packet Complete
+[2022.03.10-01.54.59:496][400]LogTemp: Packet Complete
+[2022.03.10-01.54.59:513][401]LogTemp: Packet Complete
+[2022.03.10-01.54.59:529][402]LogTemp: Packet Complete
+[2022.03.10-01.54.59:547][403]LogTemp: Packet Complete
+[2022.03.10-01.54.59:566][404]LogTemp: Packet Complete
+[2022.03.10-01.54.59:580][405]LogTemp: Packet Complete
+[2022.03.10-01.54.59:596][406]LogTemp: Packet Complete
+[2022.03.10-01.54.59:616][407]LogTemp: Packet Complete
+[2022.03.10-01.54.59:631][408]LogTemp: Packet Complete
+[2022.03.10-01.54.59:648][409]LogTemp: Packet Complete
+[2022.03.10-01.54.59:664][410]LogTemp: Packet Complete
+[2022.03.10-01.54.59:680][411]LogTemp: Packet Complete
+[2022.03.10-01.54.59:696][412]LogTemp: Packet Complete
+[2022.03.10-01.54.59:713][413]LogTemp: Packet Complete
+[2022.03.10-01.54.59:729][414]LogTemp: Packet Complete
+[2022.03.10-01.54.59:746][415]LogTemp: Packet Complete
+[2022.03.10-01.54.59:763][416]LogTemp: Packet Complete
+[2022.03.10-01.54.59:780][417]LogTemp: Packet Complete
+[2022.03.10-01.54.59:796][418]LogTemp: Packet Complete
+[2022.03.10-01.54.59:813][419]LogTemp: Packet Complete
+[2022.03.10-01.54.59:829][420]LogTemp: Packet Complete
+[2022.03.10-01.54.59:847][421]LogTemp: Packet Complete
+[2022.03.10-01.54.59:863][422]LogTemp: Packet Complete
+[2022.03.10-01.54.59:880][423]LogTemp: Packet Complete
+[2022.03.10-01.54.59:896][424]LogTemp: Packet Complete
+[2022.03.10-01.54.59:913][425]LogTemp: Packet Complete
+[2022.03.10-01.54.59:931][426]LogTemp: Packet Complete
+[2022.03.10-01.54.59:948][427]LogTemp: Packet Complete
+[2022.03.10-01.54.59:967][428]LogTemp: Packet Complete
+[2022.03.10-01.54.59:981][429]LogTemp: Packet Complete
+[2022.03.10-01.54.59:997][430]LogTemp: Packet Complete
+[2022.03.10-01.55.00:013][431]LogTemp: Packet Complete
+[2022.03.10-01.55.00:029][432]LogTemp: Packet Complete
+[2022.03.10-01.55.00:046][433]LogTemp: Packet Complete
+[2022.03.10-01.55.00:064][434]LogTemp: Packet Complete
+[2022.03.10-01.55.00:079][435]LogTemp: Packet Complete
+[2022.03.10-01.55.00:096][436]LogTemp: Packet Complete
+[2022.03.10-01.55.00:113][437]LogTemp: Packet Complete
+[2022.03.10-01.55.00:130][438]LogTemp: Packet Complete
+[2022.03.10-01.55.00:147][439]LogTemp: Packet Complete
+[2022.03.10-01.55.00:163][440]LogTemp: Packet Complete
+[2022.03.10-01.55.00:180][441]LogTemp: Packet Complete
+[2022.03.10-01.55.00:196][442]LogTemp: Packet Complete
+[2022.03.10-01.55.00:213][443]LogTemp: Packet Complete
+[2022.03.10-01.55.00:231][444]LogTemp: Packet Complete
+[2022.03.10-01.55.00:248][445]LogTemp: Packet Complete
+[2022.03.10-01.55.00:264][446]LogTemp: Packet Complete
+[2022.03.10-01.55.00:280][447]LogTemp: Packet Complete
+[2022.03.10-01.55.00:296][448]LogTemp: Packet Complete
+[2022.03.10-01.55.00:316][449]LogTemp: Packet Complete
+[2022.03.10-01.55.00:331][450]LogTemp: Packet Complete
+[2022.03.10-01.55.00:347][451]LogTemp: Packet Complete
+[2022.03.10-01.55.00:364][452]LogTemp: Packet Complete
+[2022.03.10-01.55.00:381][453]LogTemp: Packet Complete
+[2022.03.10-01.55.00:397][454]LogTemp: Packet Complete
+[2022.03.10-01.55.00:414][455]LogTemp: Packet Complete
+[2022.03.10-01.55.00:430][456]LogTemp: Packet Complete
+[2022.03.10-01.55.00:448][457]LogTemp: Packet Complete
+[2022.03.10-01.55.00:463][458]LogTemp: Packet Complete
+[2022.03.10-01.55.00:480][459]LogTemp: Packet Complete
+[2022.03.10-01.55.00:496][460]LogTemp: Packet Complete
+[2022.03.10-01.55.00:513][461]LogTemp: Packet Complete
+[2022.03.10-01.55.00:529][462]LogTemp: Packet Complete
+[2022.03.10-01.55.00:546][463]LogTemp: Packet Complete
+[2022.03.10-01.55.00:563][464]LogTemp: Packet Complete
+[2022.03.10-01.55.00:579][465]LogTemp: Packet Complete
+[2022.03.10-01.55.00:596][466]LogTemp: Packet Complete
+[2022.03.10-01.55.00:614][467]LogTemp: Packet Complete
+[2022.03.10-01.55.00:630][468]LogTemp: Packet Complete
+[2022.03.10-01.55.00:646][469]LogTemp: Packet Complete
+[2022.03.10-01.55.00:664][470]LogTemp: Packet Complete
+[2022.03.10-01.55.00:679][471]LogTemp: Packet Complete
+[2022.03.10-01.55.00:701][472]LogTemp: Packet Complete
+[2022.03.10-01.55.00:713][473]LogTemp: Packet Complete
+[2022.03.10-01.55.00:730][474]LogTemp: Packet Complete
+[2022.03.10-01.55.00:747][475]LogTemp: Packet Complete
+[2022.03.10-01.55.00:765][476]LogTemp: Packet Complete
+[2022.03.10-01.55.00:780][477]LogTemp: Packet Complete
+[2022.03.10-01.55.00:797][478]LogTemp: Packet Complete
+[2022.03.10-01.55.00:814][479]LogTemp: Packet Complete
+[2022.03.10-01.55.00:831][480]LogTemp: Packet Complete
+[2022.03.10-01.55.00:847][481]LogTemp: Packet Complete
+[2022.03.10-01.55.00:863][482]LogTemp: Packet Complete
+[2022.03.10-01.55.00:880][483]LogTemp: Packet Complete
+[2022.03.10-01.55.00:896][484]LogTemp: Packet Complete
+[2022.03.10-01.55.00:914][485]LogTemp: Packet Complete
+[2022.03.10-01.55.00:932][486]LogTemp: Packet Complete
+[2022.03.10-01.55.00:947][487]LogTemp: Packet Complete
+[2022.03.10-01.55.00:967][488]LogTemp: Packet Complete
+[2022.03.10-01.55.00:981][489]LogTemp: Packet Complete
+[2022.03.10-01.55.00:996][490]LogTemp: Packet Complete
+[2022.03.10-01.55.01:014][491]LogTemp: Packet Complete
+[2022.03.10-01.55.01:030][492]LogTemp: Packet Complete
+[2022.03.10-01.55.01:046][493]LogTemp: Packet Complete
+[2022.03.10-01.55.01:063][494]LogTemp: Packet Complete
+[2022.03.10-01.55.01:081][495]LogTemp: Packet Complete
+[2022.03.10-01.55.01:096][496]LogTemp: Packet Complete
+[2022.03.10-01.55.01:113][497]LogTemp: Packet Complete
+[2022.03.10-01.55.01:129][498]LogTemp: Packet Complete
+[2022.03.10-01.55.01:146][499]LogTemp: Packet Complete
+[2022.03.10-01.55.01:163][500]LogTemp: Packet Complete
+[2022.03.10-01.55.01:180][501]LogTemp: Packet Complete
+[2022.03.10-01.55.01:196][502]LogTemp: Packet Complete
+[2022.03.10-01.55.01:213][503]LogTemp: Packet Complete
+[2022.03.10-01.55.01:235][504]LogTemp: Packet Complete
+[2022.03.10-01.55.01:246][505]LogTemp: Packet Complete
+[2022.03.10-01.55.01:263][506]LogTemp: Packet Complete
+[2022.03.10-01.55.01:279][507]LogTemp: Packet Complete
+[2022.03.10-01.55.01:298][508]LogTemp: Packet Complete
+[2022.03.10-01.55.01:315][509]LogTemp: Packet Complete
+[2022.03.10-01.55.01:330][510]LogTemp: Packet Complete
+[2022.03.10-01.55.01:346][511]LogTemp: Packet Complete
+[2022.03.10-01.55.01:363][512]LogTemp: Packet Complete
+[2022.03.10-01.55.01:380][513]LogTemp: Packet Complete
+[2022.03.10-01.55.01:396][514]LogTemp: Packet Complete
+[2022.03.10-01.55.01:415][515]LogTemp: Packet Complete
+[2022.03.10-01.55.01:430][516]LogTemp: Packet Complete
+[2022.03.10-01.55.01:446][517]LogTemp: Packet Complete
+[2022.03.10-01.55.01:463][518]LogTemp: Packet Complete
+[2022.03.10-01.55.01:480][519]LogTemp: Packet Complete
+[2022.03.10-01.55.01:496][520]LogTemp: Packet Complete
+[2022.03.10-01.55.01:513][521]LogTemp: Packet Complete
+[2022.03.10-01.55.01:530][522]LogTemp: Packet Complete
+[2022.03.10-01.55.01:548][523]LogTemp: Packet Complete
+[2022.03.10-01.55.01:566][524]LogTemp: Packet Complete
+[2022.03.10-01.55.01:583][525]LogTemp: Packet Complete
+[2022.03.10-01.55.01:598][526]LogTemp: Packet Complete
+[2022.03.10-01.55.01:615][527]LogTemp: Packet Complete
+[2022.03.10-01.55.01:630][528]LogTemp: Packet Complete
+[2022.03.10-01.55.01:647][529]LogTemp: Packet Complete
+[2022.03.10-01.55.01:669][530]LogTemp: Packet Complete
+[2022.03.10-01.55.01:680][531]LogTemp: Packet Complete
+[2022.03.10-01.55.01:697][532]LogTemp: Packet Complete
+[2022.03.10-01.55.01:713][533]LogTemp: Packet Complete
+[2022.03.10-01.55.01:733][534]LogTemp: Packet Complete
+[2022.03.10-01.55.01:747][535]LogTemp: Packet Complete
+[2022.03.10-01.55.01:764][536]LogTemp: Packet Complete
+[2022.03.10-01.55.01:780][537]LogTemp: Packet Complete
+[2022.03.10-01.55.01:797][538]LogTemp: Packet Complete
+[2022.03.10-01.55.01:814][539]LogTemp: Packet Complete
+[2022.03.10-01.55.01:831][540]LogTemp: Packet Complete
+[2022.03.10-01.55.01:848][541]LogTemp: Packet Complete
+[2022.03.10-01.55.01:865][542]LogTemp: Packet Complete
+[2022.03.10-01.55.01:882][543]LogTemp: Packet Complete
+[2022.03.10-01.55.01:898][544]LogTemp: Packet Complete
+[2022.03.10-01.55.01:915][545]LogTemp: Packet Complete
+[2022.03.10-01.55.01:930][546]LogTemp: Packet Complete
+[2022.03.10-01.55.01:949][547]LogTemp: Packet Complete
+[2022.03.10-01.55.01:967][548]LogTemp: Packet Complete
+[2022.03.10-01.55.01:982][549]LogTemp: Packet Complete
+[2022.03.10-01.55.01:998][550]LogTemp: Packet Complete
+[2022.03.10-01.55.02:014][551]LogTemp: Packet Complete
+[2022.03.10-01.55.02:031][552]LogTemp: Packet Complete
+[2022.03.10-01.55.02:048][553]LogTemp: Packet Complete
+[2022.03.10-01.55.02:064][554]LogTemp: Packet Complete
+[2022.03.10-01.55.02:080][555]LogTemp: Packet Complete
+[2022.03.10-01.55.02:097][556]LogTemp: Packet Complete
+[2022.03.10-01.55.02:114][557]LogTemp: Packet Complete
+[2022.03.10-01.55.02:131][558]LogTemp: Packet Complete
+[2022.03.10-01.55.02:147][559]LogTemp: Packet Complete
+[2022.03.10-01.55.02:166][560]LogTemp: Packet Complete
+[2022.03.10-01.55.02:182][561]LogTemp: Packet Complete
+[2022.03.10-01.55.02:198][562]LogTemp: Packet Complete
+[2022.03.10-01.55.02:214][563]LogTemp: Packet Complete
+[2022.03.10-01.55.02:231][564]LogTemp: Packet Complete
+[2022.03.10-01.55.02:248][565]LogTemp: Packet Complete
+[2022.03.10-01.55.02:264][566]LogTemp: Packet Complete
+[2022.03.10-01.55.02:281][567]LogTemp: Packet Complete
+[2022.03.10-01.55.02:297][568]LogTemp: Packet Complete
+[2022.03.10-01.55.02:314][569]LogTemp: Packet Complete
+[2022.03.10-01.55.02:331][570]LogTemp: Packet Complete
+[2022.03.10-01.55.02:352][571]LogTemp: Packet Complete
+[2022.03.10-01.55.02:364][572]LogTemp: Packet Complete
+[2022.03.10-01.55.02:381][573]LogTemp: Packet Complete
+[2022.03.10-01.55.02:397][574]LogTemp: Packet Complete
+[2022.03.10-01.55.02:416][575]LogTemp: Packet Complete
+[2022.03.10-01.55.02:430][576]LogTemp: Packet Complete
+[2022.03.10-01.55.02:448][577]LogTemp: Packet Complete
+[2022.03.10-01.55.02:465][578]LogTemp: Input Send Msg To Queue: to qwe aaaa
+[2022.03.10-01.55.02:466][578]LogTemp: Packet Complete
+[2022.03.10-01.55.02:466][578]LogTemp: Send: to qwe aaaa
+
+[2022.03.10-01.55.02:481][579]LogTemp: From Server: qwe: aaaa 
+[2022.03.10-01.55.02:482][579]LogTemp: Find Mail Chatting Message
+[2022.03.10-01.55.02:482][579]LogTemp: Packet Complete
+[2022.03.10-01.55.02:498][580]LogTemp: Packet Complete
+[2022.03.10-01.55.02:514][581]LogTemp: Packet Complete
+[2022.03.10-01.55.02:531][582]LogTemp: Packet Complete
+[2022.03.10-01.55.02:547][583]LogTemp: Packet Complete
+[2022.03.10-01.55.02:564][584]LogTemp: Packet Complete
+[2022.03.10-01.55.02:581][585]LogTemp: Packet Complete
+[2022.03.10-01.55.02:597][586]LogTemp: Packet Complete
+[2022.03.10-01.55.02:614][587]LogTemp: Packet Complete
+[2022.03.10-01.55.02:631][588]LogTemp: Packet Complete
+[2022.03.10-01.55.02:647][589]LogTemp: Packet Complete
+[2022.03.10-01.55.02:664][590]LogTemp: Packet Complete
+[2022.03.10-01.55.02:681][591]LogTemp: Packet Complete
+[2022.03.10-01.55.02:697][592]LogTemp: Packet Complete
+[2022.03.10-01.55.02:714][593]LogTemp: Packet Complete
+[2022.03.10-01.55.02:734][594]LogTemp: Packet Complete
+[2022.03.10-01.55.02:748][595]LogTemp: Packet Complete
+[2022.03.10-01.55.02:767][596]LogTemp: Packet Complete
+[2022.03.10-01.55.02:783][597]LogTemp: Packet Complete
+[2022.03.10-01.55.02:798][598]LogTemp: Packet Complete
+[2022.03.10-01.55.02:815][599]LogTemp: Packet Complete
+[2022.03.10-01.55.02:832][600]LogTemp: Packet Complete
+[2022.03.10-01.55.02:848][601]LogTemp: Packet Complete
+[2022.03.10-01.55.02:864][602]LogTemp: Packet Complete
+[2022.03.10-01.55.02:880][603]LogTemp: Packet Complete
+[2022.03.10-01.55.02:897][604]LogTemp: Packet Complete
+[2022.03.10-01.55.02:914][605]LogTemp: Packet Complete
+[2022.03.10-01.55.02:931][606]LogTemp: Packet Complete
+[2022.03.10-01.55.02:948][607]LogTemp: Packet Complete
+[2022.03.10-01.55.02:968][608]LogTemp: Packet Complete
+[2022.03.10-01.55.02:981][609]LogTemp: Packet Complete
+[2022.03.10-01.55.02:997][610]LogTemp: Packet Complete
+[2022.03.10-01.55.03:015][611]LogTemp: Packet Complete
+[2022.03.10-01.55.03:034][612]LogTemp: Packet Complete
+[2022.03.10-01.55.03:048][613]LogTemp: Packet Complete
+[2022.03.10-01.55.03:065][614]LogTemp: Packet Complete
+[2022.03.10-01.55.03:083][615]LogTemp: Packet Complete
+[2022.03.10-01.55.03:099][616]LogTemp: Packet Complete
+[2022.03.10-01.55.03:114][617]LogTemp: Packet Complete
+[2022.03.10-01.55.03:132][618]LogTemp: Packet Complete
+[2022.03.10-01.55.03:149][619]LogTemp: Packet Complete
+[2022.03.10-01.55.03:164][620]LogTemp: Packet Complete
+[2022.03.10-01.55.03:181][621]LogTemp: Packet Complete
+[2022.03.10-01.55.03:198][622]LogTemp: Packet Complete
+[2022.03.10-01.55.03:216][623]LogTemp: Packet Complete
+[2022.03.10-01.55.03:232][624]LogTemp: Packet Complete
+[2022.03.10-01.55.03:248][625]LogTemp: Packet Complete
+[2022.03.10-01.55.03:265][626]LogTemp: Packet Complete
+[2022.03.10-01.55.03:282][627]LogTemp: Packet Complete
+[2022.03.10-01.55.03:299][628]LogTemp: Packet Complete
+[2022.03.10-01.55.03:316][629]LogTemp: Packet Complete
+[2022.03.10-01.55.03:333][630]LogTemp: Packet Complete
+[2022.03.10-01.55.03:349][631]LogTemp: Packet Complete
+[2022.03.10-01.55.03:365][632]LogTemp: Packet Complete
+[2022.03.10-01.55.03:381][633]LogTemp: Packet Complete
+[2022.03.10-01.55.03:397][634]LogTemp: Packet Complete
+[2022.03.10-01.55.03:414][635]LogTemp: Packet Complete
+[2022.03.10-01.55.03:431][636]LogTemp: Packet Complete
+[2022.03.10-01.55.03:448][637]LogTemp: Packet Complete
+[2022.03.10-01.55.03:465][638]LogTemp: Packet Complete
+[2022.03.10-01.55.03:481][639]LogTemp: Packet Complete
+[2022.03.10-01.55.03:498][640]LogTemp: Packet Complete
+[2022.03.10-01.55.03:514][641]LogTemp: Packet Complete
+[2022.03.10-01.55.03:531][642]LogTemp: Packet Complete
+[2022.03.10-01.55.03:548][643]LogTemp: Packet Complete
+[2022.03.10-01.55.03:564][644]LogTemp: Packet Complete
+[2022.03.10-01.55.03:581][645]LogTemp: Packet Complete
+[2022.03.10-01.55.03:597][646]LogTemp: Packet Complete
+[2022.03.10-01.55.03:614][647]LogTemp: Packet Complete
+[2022.03.10-01.55.03:631][648]LogTemp: Packet Complete
+[2022.03.10-01.55.03:647][649]LogTemp: Packet Complete
+[2022.03.10-01.55.03:665][650]LogTemp: Packet Complete
+[2022.03.10-01.55.03:681][651]LogTemp: Packet Complete
+[2022.03.10-01.55.03:698][652]LogTemp: Packet Complete
+[2022.03.10-01.55.03:715][653]LogTemp: Packet Complete
+[2022.03.10-01.55.03:731][654]LogTemp: Packet Complete
+[2022.03.10-01.55.03:748][655]LogTemp: Packet Complete
+[2022.03.10-01.55.03:764][656]LogTemp: Packet Complete
+[2022.03.10-01.55.03:781][657]LogTemp: Packet Complete
+[2022.03.10-01.55.03:798][658]LogTemp: Packet Complete
+[2022.03.10-01.55.03:815][659]LogTemp: Packet Complete
+[2022.03.10-01.55.03:831][660]LogTemp: Packet Complete
+[2022.03.10-01.55.03:848][661]LogTemp: Packet Complete
+[2022.03.10-01.55.03:864][662]LogTemp: Packet Complete
+[2022.03.10-01.55.03:881][663]LogTemp: Packet Complete
+[2022.03.10-01.55.03:897][664]LogTemp: Packet Complete
+[2022.03.10-01.55.03:914][665]LogTemp: Packet Complete
+[2022.03.10-01.55.03:931][666]LogTemp: Packet Complete
+[2022.03.10-01.55.03:947][667]LogTemp: Packet Complete
+[2022.03.10-01.55.03:967][668]LogTemp: Packet Complete
+[2022.03.10-01.55.03:982][669]LogTemp: Packet Complete
+[2022.03.10-01.55.03:998][670]LogTemp: Packet Complete
+[2022.03.10-01.55.04:015][671]LogTemp: Packet Complete
+[2022.03.10-01.55.04:031][672]LogTemp: Packet Complete
+[2022.03.10-01.55.04:049][673]LogTemp: Packet Complete
+[2022.03.10-01.55.04:064][674]LogTemp: Packet Complete
+[2022.03.10-01.55.04:082][675]LogTemp: Packet Complete
+[2022.03.10-01.55.04:099][676]LogTemp: Packet Complete
+[2022.03.10-01.55.04:115][677]LogTemp: Packet Complete
+[2022.03.10-01.55.04:132][678]LogTemp: Packet Complete
+[2022.03.10-01.55.04:148][679]LogTemp: Packet Complete
+[2022.03.10-01.55.04:165][680]LogTemp: Packet Complete
+[2022.03.10-01.55.04:182][681]LogTemp: Packet Complete
+[2022.03.10-01.55.04:199][682]LogTemp: Packet Complete
+[2022.03.10-01.55.04:215][683]LogTemp: Packet Complete
+[2022.03.10-01.55.04:232][684]LogTemp: Packet Complete
+[2022.03.10-01.55.04:249][685]LogTemp: Packet Complete
+[2022.03.10-01.55.04:265][686]LogTemp: Packet Complete
+[2022.03.10-01.55.04:281][687]LogTemp: Packet Complete
+[2022.03.10-01.55.04:298][688]LogTemp: Packet Complete
+[2022.03.10-01.55.04:314][689]LogTemp: Packet Complete
+[2022.03.10-01.55.04:331][690]LogTemp: Packet Complete
+[2022.03.10-01.55.04:348][691]LogTemp: Packet Complete
+[2022.03.10-01.55.04:364][692]LogTemp: Packet Complete
+[2022.03.10-01.55.04:381][693]LogTemp: Packet Complete
+[2022.03.10-01.55.04:398][694]LogTemp: Packet Complete
+[2022.03.10-01.55.04:414][695]LogTemp: Packet Complete
+[2022.03.10-01.55.04:431][696]LogTemp: Packet Complete
+[2022.03.10-01.55.04:447][697]LogTemp: Packet Complete
+[2022.03.10-01.55.04:464][698]LogTemp: Packet Complete
+[2022.03.10-01.55.04:486][699]LogTemp: Packet Complete
+[2022.03.10-01.55.04:498][700]LogTemp: Packet Complete
+[2022.03.10-01.55.04:514][701]LogTemp: Packet Complete
+[2022.03.10-01.55.04:530][702]LogTemp: Packet Complete
+[2022.03.10-01.55.04:548][703]LogTemp: Packet Complete
+[2022.03.10-01.55.04:568][704]LogTemp: Packet Complete
+[2022.03.10-01.55.04:581][705]LogTemp: Packet Complete
+[2022.03.10-01.55.04:597][706]LogTemp: Packet Complete
+[2022.03.10-01.55.04:614][707]LogTemp: Packet Complete
+[2022.03.10-01.55.04:631][708]LogTemp: Packet Complete
+[2022.03.10-01.55.04:647][709]LogTemp: Packet Complete
+[2022.03.10-01.55.04:664][710]LogTemp: Packet Complete
+[2022.03.10-01.55.04:681][711]LogTemp: Packet Complete
+[2022.03.10-01.55.04:697][712]LogTemp: Packet Complete
+[2022.03.10-01.55.04:714][713]LogTemp: Packet Complete
+[2022.03.10-01.55.04:733][714]LogTemp: Packet Complete
+[2022.03.10-01.55.04:751][715]LogTemp: Packet Complete
+[2022.03.10-01.55.04:767][716]LogTemp: Packet Complete
+[2022.03.10-01.55.04:784][717]LogTemp: Packet Complete
+[2022.03.10-01.55.04:798][718]LogTemp: Packet Complete
+[2022.03.10-01.55.04:815][719]LogTemp: Packet Complete
+[2022.03.10-01.55.04:833][720]LogTemp: Packet Complete
+[2022.03.10-01.55.04:849][721]LogTemp: Packet Complete
+[2022.03.10-01.55.04:865][722]LogTemp: Packet Complete
+[2022.03.10-01.55.04:882][723]LogTemp: Packet Complete
+[2022.03.10-01.55.04:898][724]LogTemp: Packet Complete
+[2022.03.10-01.55.04:914][725]LogTemp: Packet Complete
+[2022.03.10-01.55.04:933][726]LogTemp: Packet Complete
+[2022.03.10-01.55.04:948][727]LogTemp: Packet Complete
+[2022.03.10-01.55.04:967][728]LogTemp: Packet Complete
+[2022.03.10-01.55.04:983][729]LogTemp: Packet Complete
+[2022.03.10-01.55.04:998][730]LogTemp: Packet Complete
+[2022.03.10-01.55.05:014][731]LogTemp: Packet Complete
+[2022.03.10-01.55.05:033][732]LogTemp: Packet Complete
+[2022.03.10-01.55.05:048][733]LogTemp: Packet Complete
+[2022.03.10-01.55.05:065][734]LogTemp: Packet Complete
+[2022.03.10-01.55.05:084][735]LogTemp: Packet Complete
+[2022.03.10-01.55.05:098][736]LogTemp: Packet Complete
+[2022.03.10-01.55.05:115][737]LogTemp: Packet Complete
+[2022.03.10-01.55.05:131][738]LogTemp: Packet Complete
+[2022.03.10-01.55.05:148][739]LogTemp: Packet Complete
+[2022.03.10-01.55.05:165][740]LogTemp: Packet Complete
+[2022.03.10-01.55.05:181][741]LogTemp: Packet Complete
+[2022.03.10-01.55.05:197][742]LogTemp: Packet Complete
+[2022.03.10-01.55.05:214][743]LogTemp: Packet Complete
+[2022.03.10-01.55.05:232][744]LogTemp: Packet Complete
+[2022.03.10-01.55.05:248][745]LogTemp: Packet Complete
+[2022.03.10-01.55.05:266][746]LogTemp: Packet Complete
+[2022.03.10-01.55.05:282][747]LogTemp: Packet Complete
+[2022.03.10-01.55.05:298][748]LogTemp: Packet Complete
+[2022.03.10-01.55.05:315][749]LogTemp: Packet Complete
+[2022.03.10-01.55.05:332][750]LogTemp: Packet Complete
+[2022.03.10-01.55.05:348][751]LogTemp: Packet Complete
+[2022.03.10-01.55.05:364][752]LogTemp: Packet Complete
+[2022.03.10-01.55.05:381][753]LogTemp: Packet Complete
+[2022.03.10-01.55.05:397][754]LogTemp: Packet Complete
+[2022.03.10-01.55.05:414][755]LogTemp: Packet Complete
+[2022.03.10-01.55.05:431][756]LogTemp: Packet Complete
+[2022.03.10-01.55.05:447][757]LogTemp: Packet Complete
+[2022.03.10-01.55.05:464][758]LogTemp: Packet Complete
+[2022.03.10-01.55.05:481][759]LogTemp: Packet Complete
+[2022.03.10-01.55.05:497][760]LogTemp: Packet Complete
+[2022.03.10-01.55.05:516][761]LogTemp: Packet Complete
+[2022.03.10-01.55.05:531][762]LogTemp: Packet Complete
+[2022.03.10-01.55.05:547][763]LogTemp: Packet Complete
+[2022.03.10-01.55.05:564][764]LogTemp: Packet Complete
+[2022.03.10-01.55.05:580][765]LogTemp: Packet Complete
+[2022.03.10-01.55.05:597][766]LogTemp: Packet Complete
+[2022.03.10-01.55.05:615][767]LogTemp: Packet Complete
+[2022.03.10-01.55.05:631][768]LogTemp: Packet Complete
+[2022.03.10-01.55.05:648][769]LogTemp: Packet Complete
+[2022.03.10-01.55.05:665][770]LogTemp: Packet Complete
+[2022.03.10-01.55.05:681][771]LogTemp: Packet Complete
+[2022.03.10-01.55.05:698][772]LogTemp: Packet Complete
+[2022.03.10-01.55.05:715][773]LogTemp: Packet Complete
+[2022.03.10-01.55.05:731][774]LogTemp: Packet Complete
+[2022.03.10-01.55.05:747][775]LogTemp: Packet Complete
+[2022.03.10-01.55.05:764][776]LogTemp: Packet Complete
+[2022.03.10-01.55.05:781][777]LogTemp: Packet Complete
+[2022.03.10-01.55.05:797][778]LogTemp: Packet Complete
+[2022.03.10-01.55.05:814][779]LogTemp: Packet Complete
+[2022.03.10-01.55.05:831][780]LogTemp: Packet Complete
+[2022.03.10-01.55.05:847][781]LogTemp: Packet Complete
+[2022.03.10-01.55.05:864][782]LogTemp: Packet Complete
+[2022.03.10-01.55.05:881][783]LogTemp: Packet Complete
+[2022.03.10-01.55.05:898][784]LogTemp: Packet Complete
+[2022.03.10-01.55.05:914][785]LogTemp: Packet Complete
+[2022.03.10-01.55.05:931][786]LogTemp: Packet Complete
+[2022.03.10-01.55.05:947][787]LogTemp: Packet Complete
+[2022.03.10-01.55.05:964][788]LogTemp: Packet Complete
+[2022.03.10-01.55.05:984][789]LogTemp: Packet Complete
+[2022.03.10-01.55.05:998][790]LogTemp: Packet Complete
+[2022.03.10-01.55.06:014][791]LogTemp: Packet Complete
+[2022.03.10-01.55.06:031][792]LogTemp: Packet Complete
+[2022.03.10-01.55.06:047][793]LogTemp: Packet Complete
+[2022.03.10-01.55.06:064][794]LogTemp: Packet Complete
+[2022.03.10-01.55.06:081][795]LogTemp: Packet Complete
+[2022.03.10-01.55.06:098][796]LogTemp: Packet Complete
+[2022.03.10-01.55.06:115][797]LogTemp: Packet Complete
+[2022.03.10-01.55.06:131][798]LogTemp: Packet Complete
+[2022.03.10-01.55.06:148][799]LogTemp: Packet Complete
+[2022.03.10-01.55.06:165][800]LogTemp: Packet Complete
+[2022.03.10-01.55.06:181][801]LogTemp: Packet Complete
+[2022.03.10-01.55.06:198][802]LogTemp: Packet Complete
+[2022.03.10-01.55.06:215][803]LogTemp: Packet Complete
+[2022.03.10-01.55.06:237][804]LogTemp: Packet Complete
+[2022.03.10-01.55.06:247][805]LogTemp: Packet Complete
+[2022.03.10-01.55.06:264][806]LogTemp: Packet Complete
+[2022.03.10-01.55.06:281][807]LogTemp: Packet Complete
+[2022.03.10-01.55.06:298][808]LogTemp: Packet Complete
+[2022.03.10-01.55.06:316][809]LogTemp: Packet Complete
+[2022.03.10-01.55.06:331][810]LogTemp: Packet Complete
+[2022.03.10-01.55.06:347][811]LogTemp: Packet Complete
+[2022.03.10-01.55.06:364][812]LogTemp: Packet Complete
+[2022.03.10-01.55.06:381][813]LogTemp: Packet Complete
+[2022.03.10-01.55.06:397][814]LogTemp: Packet Complete
+[2022.03.10-01.55.06:414][815]LogTemp: Packet Complete
+[2022.03.10-01.55.06:431][816]LogTemp: Packet Complete
+[2022.03.10-01.55.06:448][817]LogTemp: Packet Complete
+[2022.03.10-01.55.06:465][818]LogTemp: Packet Complete
+[2022.03.10-01.55.06:481][819]LogTemp: Packet Complete
+[2022.03.10-01.55.06:497][820]LogTemp: Packet Complete
+[2022.03.10-01.55.06:515][821]LogTemp: Packet Complete
+[2022.03.10-01.55.06:531][822]LogTemp: Packet Complete
+[2022.03.10-01.55.06:548][823]LogTemp: Packet Complete
+[2022.03.10-01.55.06:564][824]LogTemp: Packet Complete
+[2022.03.10-01.55.06:581][825]LogTemp: Packet Complete
+[2022.03.10-01.55.06:598][826]LogTemp: Packet Complete
+[2022.03.10-01.55.06:615][827]LogTemp: Packet Complete
+[2022.03.10-01.55.06:631][828]LogTemp: Packet Complete
+[2022.03.10-01.55.06:650][829]LogTemp: Packet Complete
+[2022.03.10-01.55.06:668][830]LogTemp: Packet Complete
+[2022.03.10-01.55.06:682][831]LogTemp: Packet Complete
+[2022.03.10-01.55.06:698][832]LogTemp: Packet Complete
+[2022.03.10-01.55.06:715][833]LogTemp: Packet Complete
+[2022.03.10-01.55.06:732][834]LogTemp: Packet Complete
+[2022.03.10-01.55.06:748][835]LogTemp: Packet Complete
+[2022.03.10-01.55.06:764][836]LogTemp: Packet Complete
+[2022.03.10-01.55.06:781][837]LogTemp: Packet Complete
+[2022.03.10-01.55.06:799][838]LogTemp: Packet Complete
+[2022.03.10-01.55.06:815][839]LogTemp: Packet Complete
+[2022.03.10-01.55.06:831][840]LogTemp: Packet Complete
+[2022.03.10-01.55.06:848][841]LogTemp: Packet Complete
+[2022.03.10-01.55.06:865][842]LogTemp: Packet Complete
+[2022.03.10-01.55.06:882][843]LogTemp: Packet Complete
+[2022.03.10-01.55.06:898][844]LogTemp: Packet Complete
+[2022.03.10-01.55.06:914][845]LogTemp: Packet Complete
+[2022.03.10-01.55.06:931][846]LogTemp: Packet Complete
+[2022.03.10-01.55.06:947][847]LogTemp: Packet Complete
+[2022.03.10-01.55.06:964][848]LogTemp: Packet Complete
+[2022.03.10-01.55.06:984][849]LogTemp: Packet Complete
+[2022.03.10-01.55.06:998][850]LogTemp: Packet Complete
+[2022.03.10-01.55.07:014][851]LogTemp: Packet Complete
+[2022.03.10-01.55.07:031][852]LogTemp: Packet Complete
+[2022.03.10-01.55.07:047][853]LogTemp: Packet Complete
+[2022.03.10-01.55.07:064][854]LogTemp: Packet Complete
+[2022.03.10-01.55.07:081][855]LogTemp: Packet Complete
+[2022.03.10-01.55.07:097][856]LogTemp: Packet Complete
+[2022.03.10-01.55.07:114][857]LogTemp: Packet Complete
+[2022.03.10-01.55.07:131][858]LogTemp: Packet Complete
+[2022.03.10-01.55.07:148][859]LogTemp: Packet Complete
+[2022.03.10-01.55.07:164][860]LogTemp: Packet Complete
+[2022.03.10-01.55.07:181][861]LogTemp: Packet Complete
+[2022.03.10-01.55.07:197][862]LogTemp: Packet Complete
+[2022.03.10-01.55.07:214][863]LogTemp: Packet Complete
+[2022.03.10-01.55.07:231][864]LogTemp: Packet Complete
+[2022.03.10-01.55.07:248][865]LogTemp: Packet Complete
+[2022.03.10-01.55.07:265][866]LogTemp: Packet Complete
+[2022.03.10-01.55.07:281][867]LogTemp: Packet Complete
+[2022.03.10-01.55.07:298][868]LogTemp: Packet Complete
+[2022.03.10-01.55.07:315][869]LogTemp: Packet Complete
+[2022.03.10-01.55.07:331][870]LogTemp: Packet Complete
+[2022.03.10-01.55.07:348][871]LogTemp: Packet Complete
+[2022.03.10-01.55.07:365][872]LogTemp: Packet Complete
+[2022.03.10-01.55.07:381][873]LogTemp: Packet Complete
+[2022.03.10-01.55.07:398][874]LogTemp: Packet Complete
+[2022.03.10-01.55.07:414][875]LogTemp: Packet Complete
+[2022.03.10-01.55.07:431][876]LogTemp: Packet Complete
+[2022.03.10-01.55.07:447][877]LogTemp: Packet Complete
+[2022.03.10-01.55.07:464][878]LogTemp: Packet Complete
+[2022.03.10-01.55.07:481][879]LogTemp: Packet Complete
+[2022.03.10-01.55.07:497][880]LogTemp: Packet Complete
+[2022.03.10-01.55.07:514][881]LogTemp: Packet Complete
+[2022.03.10-01.55.07:531][882]LogTemp: Packet Complete
+[2022.03.10-01.55.07:547][883]LogTemp: Packet Complete
+[2022.03.10-01.55.07:564][884]LogTemp: Packet Complete
+[2022.03.10-01.55.07:581][885]LogTemp: Packet Complete
+[2022.03.10-01.55.07:597][886]LogTemp: Packet Complete
+[2022.03.10-01.55.07:614][887]LogTemp: Packet Complete
+[2022.03.10-01.55.07:631][888]LogTemp: Packet Complete
+[2022.03.10-01.55.07:647][889]LogTemp: Packet Complete
+[2022.03.10-01.55.07:664][890]LogTemp: Packet Complete
+[2022.03.10-01.55.07:681][891]LogTemp: Packet Complete
+[2022.03.10-01.55.07:697][892]LogTemp: Packet Complete
+[2022.03.10-01.55.07:714][893]LogTemp: Packet Complete
+[2022.03.10-01.55.07:731][894]LogTemp: Packet Complete
+[2022.03.10-01.55.07:747][895]LogTemp: Packet Complete
+[2022.03.10-01.55.07:765][896]LogTemp: Packet Complete
+[2022.03.10-01.55.07:781][897]LogTemp: Packet Complete
+[2022.03.10-01.55.07:797][898]LogTemp: Packet Complete
+[2022.03.10-01.55.07:815][899]LogTemp: Packet Complete
+[2022.03.10-01.55.07:832][900]LogTemp: Packet Complete
+[2022.03.10-01.55.07:848][901]LogTemp: Packet Complete
+[2022.03.10-01.55.07:864][902]LogTemp: Packet Complete
+[2022.03.10-01.55.07:881][903]LogTemp: Packet Complete
+[2022.03.10-01.55.07:898][904]LogTemp: Packet Complete
+[2022.03.10-01.55.07:914][905]LogTemp: Packet Complete
+[2022.03.10-01.55.07:931][906]LogTemp: Packet Complete
+[2022.03.10-01.55.07:947][907]LogTemp: Packet Complete
+[2022.03.10-01.55.07:964][908]LogTemp: Packet Complete
+[2022.03.10-01.55.07:984][909]LogTemp: Packet Complete
+[2022.03.10-01.55.07:997][910]LogTemp: Packet Complete
+[2022.03.10-01.55.08:014][911]LogTemp: Packet Complete
+[2022.03.10-01.55.08:031][912]LogTemp: Packet Complete
+[2022.03.10-01.55.08:048][913]LogTemp: Packet Complete
+[2022.03.10-01.55.08:065][914]LogTemp: Packet Complete
+[2022.03.10-01.55.08:081][915]LogTemp: Packet Complete
+[2022.03.10-01.55.08:098][916]LogTemp: Packet Complete
+[2022.03.10-01.55.08:115][917]LogTemp: Packet Complete
+[2022.03.10-01.55.08:132][918]LogTemp: Packet Complete
+[2022.03.10-01.55.08:148][919]LogTemp: Packet Complete
+[2022.03.10-01.55.08:164][920]LogTemp: Packet Complete
+[2022.03.10-01.55.08:181][921]LogTemp: Packet Complete
+[2022.03.10-01.55.08:197][922]LogTemp: Packet Complete
+[2022.03.10-01.55.08:214][923]LogTemp: Packet Complete
+[2022.03.10-01.55.08:231][924]LogTemp: Packet Complete
+[2022.03.10-01.55.08:248][925]LogTemp: Packet Complete
+[2022.03.10-01.55.08:265][926]LogTemp: Packet Complete
+[2022.03.10-01.55.08:281][927]LogTemp: Packet Complete
+[2022.03.10-01.55.08:298][928]LogTemp: Packet Complete
+[2022.03.10-01.55.08:314][929]LogTemp: Packet Complete
+[2022.03.10-01.55.08:331][930]LogTemp: Packet Complete
+[2022.03.10-01.55.08:348][931]LogTemp: Packet Complete
+[2022.03.10-01.55.08:364][932]LogTemp: Packet Complete
+[2022.03.10-01.55.08:381][933]LogTemp: Packet Complete
+[2022.03.10-01.55.08:397][934]LogTemp: Packet Complete
+[2022.03.10-01.55.08:414][935]LogTemp: Packet Complete
+[2022.03.10-01.55.08:432][936]LogTemp: Packet Complete
+[2022.03.10-01.55.08:447][937]LogTemp: Packet Complete
+[2022.03.10-01.55.08:464][938]LogTemp: Packet Complete
+[2022.03.10-01.55.08:481][939]LogTemp: Packet Complete
+[2022.03.10-01.55.08:497][940]LogTemp: Packet Complete
+[2022.03.10-01.55.08:514][941]LogTemp: Packet Complete
+[2022.03.10-01.55.08:531][942]LogTemp: Packet Complete
+[2022.03.10-01.55.08:547][943]LogTemp: Packet Complete
+[2022.03.10-01.55.08:564][944]LogTemp: Packet Complete
+[2022.03.10-01.55.08:581][945]LogTemp: Packet Complete
+[2022.03.10-01.55.08:598][946]LogTemp: Packet Complete
+[2022.03.10-01.55.08:615][947]LogTemp: Packet Complete
+[2022.03.10-01.55.08:631][948]LogTemp: Packet Complete
+[2022.03.10-01.55.08:648][949]LogTemp: Packet Complete
+[2022.03.10-01.55.08:665][950]LogTemp: Packet Complete
+[2022.03.10-01.55.08:681][951]LogTemp: Packet Complete
+[2022.03.10-01.55.08:698][952]LogTemp: Packet Complete
+[2022.03.10-01.55.08:715][953]LogTemp: Packet Complete
+[2022.03.10-01.55.08:731][954]LogTemp: Packet Complete
+[2022.03.10-01.55.08:748][955]LogTemp: Packet Complete
+[2022.03.10-01.55.08:765][956]LogTemp: Packet Complete
+[2022.03.10-01.55.08:781][957]LogTemp: Packet Complete
+[2022.03.10-01.55.08:798][958]LogTemp: Packet Complete
+[2022.03.10-01.55.08:815][959]LogTemp: Packet Complete
+[2022.03.10-01.55.08:831][960]LogTemp: Packet Complete
+[2022.03.10-01.55.08:848][961]LogTemp: Packet Complete
+[2022.03.10-01.55.08:865][962]LogTemp: Packet Complete
+[2022.03.10-01.55.08:881][963]LogTemp: Packet Complete
+[2022.03.10-01.55.08:898][964]LogTemp: Packet Complete
+[2022.03.10-01.55.08:914][965]LogTemp: Packet Complete
+[2022.03.10-01.55.08:931][966]LogTemp: Packet Complete
+[2022.03.10-01.55.08:948][967]LogTemp: Packet Complete
+[2022.03.10-01.55.08:964][968]LogTemp: Packet Complete
+[2022.03.10-01.55.08:984][969]LogTemp: Packet Complete
+[2022.03.10-01.55.08:997][970]LogTemp: Packet Complete
+[2022.03.10-01.55.09:014][971]LogTemp: Packet Complete
+[2022.03.10-01.55.09:032][972]LogTemp: Packet Complete
+[2022.03.10-01.55.09:048][973]LogTemp: Packet Complete
+[2022.03.10-01.55.09:064][974]LogTemp: Packet Complete
+[2022.03.10-01.55.09:081][975]LogTemp: Packet Complete
+[2022.03.10-01.55.09:098][976]LogTemp: Packet Complete
+[2022.03.10-01.55.09:115][977]LogTemp: Packet Complete
+[2022.03.10-01.55.09:131][978]LogTemp: Packet Complete
+[2022.03.10-01.55.09:147][979]LogTemp: Packet Complete
+[2022.03.10-01.55.09:164][980]LogTemp: Packet Complete
+[2022.03.10-01.55.09:181][981]LogTemp: Packet Complete
+[2022.03.10-01.55.09:197][982]LogTemp: Packet Complete
+[2022.03.10-01.55.09:214][983]LogTemp: Packet Complete
+[2022.03.10-01.55.09:231][984]LogTemp: Packet Complete
+[2022.03.10-01.55.09:247][985]LogTemp: Packet Complete
+[2022.03.10-01.55.09:265][986]LogTemp: Packet Complete
+[2022.03.10-01.55.09:281][987]LogTemp: Packet Complete
+[2022.03.10-01.55.09:298][988]LogTemp: Packet Complete
+[2022.03.10-01.55.09:315][989]LogTemp: Packet Complete
+[2022.03.10-01.55.09:331][990]LogTemp: Packet Complete
+[2022.03.10-01.55.09:348][991]LogTemp: Packet Complete
+[2022.03.10-01.55.09:364][992]LogTemp: Packet Complete
+[2022.03.10-01.55.09:381][993]LogTemp: Packet Complete
+[2022.03.10-01.55.09:398][994]LogTemp: Packet Complete
+[2022.03.10-01.55.09:414][995]LogTemp: Packet Complete
+[2022.03.10-01.55.09:431][996]LogTemp: Packet Complete
+[2022.03.10-01.55.09:448][997]LogTemp: Packet Complete
+[2022.03.10-01.55.09:465][998]LogTemp: Packet Complete
+[2022.03.10-01.55.09:482][999]LogTemp: Packet Complete
+[2022.03.10-01.55.09:498][  0]LogTemp: Packet Complete
+[2022.03.10-01.55.09:515][  1]LogTemp: Packet Complete
+[2022.03.10-01.55.09:531][  2]LogTemp: Packet Complete
+[2022.03.10-01.55.09:547][  3]LogTemp: Packet Complete
+[2022.03.10-01.55.09:564][  4]LogTemp: Packet Complete
+[2022.03.10-01.55.09:581][  5]LogTemp: Packet Complete
+[2022.03.10-01.55.09:597][  6]LogTemp: Packet Complete
+[2022.03.10-01.55.09:614][  7]LogTemp: Packet Complete
+[2022.03.10-01.55.09:631][  8]LogTemp: Packet Complete
+[2022.03.10-01.55.09:648][  9]LogTemp: Packet Complete
+[2022.03.10-01.55.09:664][ 10]LogTemp: Packet Complete
+[2022.03.10-01.55.09:682][ 11]LogTemp: Packet Complete
+[2022.03.10-01.55.09:698][ 12]LogTemp: Packet Complete
+[2022.03.10-01.55.09:715][ 13]LogTemp: Packet Complete
+[2022.03.10-01.55.09:731][ 14]LogTemp: Packet Complete
+[2022.03.10-01.55.09:749][ 15]LogTemp: Packet Complete
+[2022.03.10-01.55.09:765][ 16]LogTemp: Packet Complete
+[2022.03.10-01.55.09:781][ 17]LogTemp: Packet Complete
+[2022.03.10-01.55.09:798][ 18]LogTemp: Packet Complete
+[2022.03.10-01.55.09:815][ 19]LogTemp: Packet Complete
+[2022.03.10-01.55.09:831][ 20]LogTemp: Packet Complete
+[2022.03.10-01.55.09:848][ 21]LogTemp: Packet Complete
+[2022.03.10-01.55.09:864][ 22]LogTemp: Packet Complete
+[2022.03.10-01.55.09:881][ 23]LogTemp: Packet Complete
+[2022.03.10-01.55.09:897][ 24]LogTemp: Packet Complete
+[2022.03.10-01.55.09:914][ 25]LogTemp: Packet Complete
+[2022.03.10-01.55.09:931][ 26]LogTemp: Packet Complete
+[2022.03.10-01.55.09:948][ 27]LogTemp: Packet Complete
+[2022.03.10-01.55.09:966][ 28]LogTemp: Packet Complete
+[2022.03.10-01.55.09:982][ 29]LogTemp: Packet Complete
+[2022.03.10-01.55.09:999][ 30]LogTemp: Packet Complete
+[2022.03.10-01.55.10:015][ 31]LogTemp: Packet Complete
+[2022.03.10-01.55.10:031][ 32]LogTemp: Packet Complete
+[2022.03.10-01.55.10:048][ 33]LogTemp: Packet Complete
+[2022.03.10-01.55.10:065][ 34]LogTemp: Packet Complete
+[2022.03.10-01.55.10:082][ 35]LogTemp: Packet Complete
+[2022.03.10-01.55.10:098][ 36]LogTemp: Packet Complete
+[2022.03.10-01.55.10:115][ 37]LogTemp: Packet Complete
+[2022.03.10-01.55.10:131][ 38]LogTemp: Packet Complete
+[2022.03.10-01.55.10:147][ 39]LogTemp: Packet Complete
+[2022.03.10-01.55.10:164][ 40]LogTemp: Packet Complete
+[2022.03.10-01.55.10:181][ 41]LogTemp: Packet Complete
+[2022.03.10-01.55.10:198][ 42]LogTemp: Packet Complete
+[2022.03.10-01.55.10:215][ 43]LogTemp: Packet Complete
+[2022.03.10-01.55.10:231][ 44]LogTemp: Packet Complete
+[2022.03.10-01.55.10:248][ 45]LogTemp: Packet Complete
+[2022.03.10-01.55.10:265][ 46]LogTemp: Packet Complete
+[2022.03.10-01.55.10:281][ 47]LogTemp: Packet Complete
+[2022.03.10-01.55.10:298][ 48]LogTemp: Packet Complete
+[2022.03.10-01.55.10:314][ 49]LogTemp: Packet Complete
+[2022.03.10-01.55.10:331][ 50]LogTemp: Packet Complete
+[2022.03.10-01.55.10:347][ 51]LogTemp: Packet Complete
+[2022.03.10-01.55.10:364][ 52]LogTemp: Packet Complete
+[2022.03.10-01.55.10:381][ 53]LogTemp: Packet Complete
+[2022.03.10-01.55.10:397][ 54]LogTemp: Packet Complete
+[2022.03.10-01.55.10:414][ 55]LogTemp: Packet Complete
+[2022.03.10-01.55.10:431][ 56]LogTemp: Packet Complete
+[2022.03.10-01.55.10:447][ 57]LogTemp: Packet Complete
+[2022.03.10-01.55.10:464][ 58]LogTemp: Packet Complete
+[2022.03.10-01.55.10:481][ 59]LogTemp: Packet Complete
+[2022.03.10-01.55.10:497][ 60]LogTemp: Packet Complete
+[2022.03.10-01.55.10:515][ 61]LogTemp: Packet Complete
+[2022.03.10-01.55.10:535][ 62]LogTemp: Packet Complete
+[2022.03.10-01.55.10:548][ 63]LogTemp: Packet Complete
+[2022.03.10-01.55.10:565][ 64]LogTemp: Packet Complete
+[2022.03.10-01.55.10:584][ 65]LogTemp: Packet Complete
+[2022.03.10-01.55.10:598][ 66]LogTemp: Packet Complete
+[2022.03.10-01.55.10:614][ 67]LogTemp: Packet Complete
+[2022.03.10-01.55.10:631][ 68]LogTemp: Packet Complete
+[2022.03.10-01.55.10:649][ 69]LogTemp: Packet Complete
+[2022.03.10-01.55.10:664][ 70]LogTemp: Packet Complete
+[2022.03.10-01.55.10:681][ 71]LogTemp: Packet Complete
+[2022.03.10-01.55.10:697][ 72]LogTemp: Packet Complete
+[2022.03.10-01.55.10:714][ 73]LogTemp: Packet Complete
+[2022.03.10-01.55.10:731][ 74]LogTemp: Packet Complete
+[2022.03.10-01.55.10:747][ 75]LogTemp: Packet Complete
+[2022.03.10-01.55.10:764][ 76]LogTemp: Packet Complete
+[2022.03.10-01.55.10:781][ 77]LogTemp: Packet Complete
+[2022.03.10-01.55.10:797][ 78]LogTemp: Packet Complete
+[2022.03.10-01.55.10:814][ 79]LogTemp: Packet Complete
+[2022.03.10-01.55.10:832][ 80]LogTemp: Packet Complete
+[2022.03.10-01.55.10:848][ 81]LogTemp: Packet Complete
+[2022.03.10-01.55.10:864][ 82]LogTemp: Packet Complete
+[2022.03.10-01.55.10:882][ 83]LogTemp: Packet Complete
+[2022.03.10-01.55.10:898][ 84]LogTemp: Packet Complete
+[2022.03.10-01.55.10:914][ 85]LogTemp: Packet Complete
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: === Critical error: ===
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: 
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: Fatal error!
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: 
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION writing address 0x0000000000000c68
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: 
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff995fb0ce4 UE4Editor-UMG.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9673ddba8 UE4Editor-ChattingClient-0008.dll!USendMailWindowWidget::ChangeSendMailMode() [C:\EpicGames\ChattingClient\ChattingClient\Source\ChattingClient\Private\SendMailWindowWidget.cpp:58]
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff99a3119c4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff99a5f3ca3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff995e90f5b UE4Editor-UMG.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff995fba6d7 UE4Editor-UMG.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff995f18ff3 UE4Editor-UMG.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff999a0a6fe UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff999a2280e UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff99987421e UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9998ee104 UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9998d7097 UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9998c9b62 UE4Editor-Slate.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9bde2c025 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9bde192b7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9bde2e465 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9bde14410 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9fe60e858 USER32.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9fe60e299 USER32.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9bde2fcd4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d17621 UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d30fcc UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d310ba UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d340dd UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d45984 UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff623d4853a UE4Editor.exe!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9fddc7034 KERNEL32.DLL!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: [Callstack] 0x00007ff9fefe2651 ntdll.dll!UnknownFunction []
+[2022.03.10-01.55.12:856][ 86]LogWindows: Error: 
+[2022.03.10-01.55.12:862][ 86]LogExit: Executing StaticShutdownAfterError
+[2022.03.10-01.55.12:870][ 86]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.03.10-01.55.12:870][ 86]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2022.03.10-01.55.12:870][ 86]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.03.10-01.55.12:880][ 86]Log file closed, 03/10/22 10:55:12

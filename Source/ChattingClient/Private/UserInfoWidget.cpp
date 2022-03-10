@@ -23,11 +23,12 @@ void UUserInfoWidget::NativeConstruct()
 
 void UUserInfoWidget::SpecificInfoButtonClickedCallback()
 {
-	if (User)
+	if (!User || !UserInfoText)
 	{
-		FText userInfo = UserInfoText->GetText();
-		auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*userInfo.ToString()), ' ');
-		std::string msgToSend = "pf " + tokens[0];
-		User->SendMsg(msgToSend.c_str());
+		return;
 	}
+	FText userInfo = UserInfoText->GetText();
+	auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*userInfo.ToString()), ' ');
+	std::string msgToSend = "pf " + tokens[0];
+	User->SendMsg(msgToSend.c_str());
 }

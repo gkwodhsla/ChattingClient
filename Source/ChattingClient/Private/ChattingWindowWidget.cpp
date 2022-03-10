@@ -29,36 +29,42 @@ void UChattingWindowWidget::NativeConstruct()
 
 void UChattingWindowWidget::AddNewChatting(const std::string& Chatting)
 {
-	if (User)
+	if (!User || !ChattingScroll)
 	{
-		auto newWidget = CreateWidget(GetWorld(), User->MsgWidgetClass);
+		return;
+	}
+	auto newWidget = CreateWidget(GetWorld(), User->MsgWidgetClass);
 
-		auto newTextBlock = Cast<UMsgWidget>(newWidget);
-		if (newTextBlock)
-		{
-			FString temp(Chatting.c_str());
-			newTextBlock->Msg->SetText(FText::FromString(temp));
-			ChattingScroll->AddChild(newTextBlock);
-			Chattings.Add(newTextBlock);
-		}
+	auto newTextBlock = Cast<UMsgWidget>(newWidget);
+	if (newTextBlock)
+	{
+		FString temp(Chatting.c_str());
+		newTextBlock->Msg->SetText(FText::FromString(temp));
+		ChattingScroll->AddChild(newTextBlock);
+		Chattings.Add(newTextBlock);
 	}
 }
 
 void UChattingWindowWidget::TextCommitedCallback(const FText& InText, ETextCommit::Type InCommitType)
 {
-	if (User)
+	if (!User || !MsgBox)
 	{
-		if (InCommitType == ETextCommit::OnEnter && InText.ToString() != "")
-		{
-			User->SendMsg(InText.ToString());
-			MsgBox->SetText(FText());
-			//메시지를 서버를 통해 같은 방의 유저들에게 보내고, 채팅 입력창을 비웁니다.
-		}
+		return;
+	}
+	if (InCommitType == ETextCommit::OnEnter && InText.ToString() != "")
+	{
+		User->SendMsg(InText.ToString());
+		MsgBox->SetText(FText());
+		//메시지를 서버를 통해 같은 방의 유저들에게 보내고, 채팅 입력창을 비웁니다.
 	}
 }
 
 void UChattingWindowWidget::EraseAllChatting()
 {
+	if (!ChattingScroll)
+	{
+		return;
+	}
 	for (int i = 0; i < Chattings.Num(); ++i)
 	{
 		if (Chattings[i])

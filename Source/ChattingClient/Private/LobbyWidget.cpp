@@ -69,6 +69,10 @@ void ULobbyWidget::CreateRoomButtonClickedCallback()
 
 void ULobbyWidget::SendMailButtonClickedCallback()
 {
+	if (!LobbyWidgetSwitcher || !SendMailWindow)
+	{
+		return;
+	}
 	LobbyWidgetSwitcher->SetActiveWidgetIndex(SEND_MAIL_INDEX);
 	SendMailWindow->ChangeSendMailMode();
 }
@@ -83,6 +87,11 @@ void ULobbyWidget::ExitButtonClickedCallback()
 
 void ULobbyWidget::InviteButtonClickedCallback()
 {
+	if (!LobbyWidgetSwitcher || !SendMailWindow)
+	{
+		return;
+	}
+
 	if (User && User->IsJoinRoom)
 	{
 		LobbyWidgetSwitcher->SetActiveWidgetIndex(SEND_MAIL_INDEX);
@@ -96,37 +105,44 @@ void ULobbyWidget::InviteButtonClickedCallback()
 
 void ULobbyWidget::ChattingWindowButtonClickedCallback()
 {
-	LobbyWidgetSwitcher->SetActiveWidgetIndex(CHATTING_WINDOW_INDEX);
+	if (LobbyWidgetSwitcher)
+	{
+		LobbyWidgetSwitcher->SetActiveWidgetIndex(CHATTING_WINDOW_INDEX);
+	}
 }
 
 void ULobbyWidget::AnimationFinishedCallback()
 {
-	WarningMsg->SetVisibility(ESlateVisibility::Hidden);
+	if (WarningMsg)
+	{
+		WarningMsg->SetVisibility(ESlateVisibility::Hidden);
+	}
 }
 
 void ULobbyWidget::ShowUserInfoList(const std::vector<std::string>& UserList)
 {
-	if (User)
+	if (!User || !UserListScroll)
 	{
-		for (int i = 0; i < UserListWidgets.Num(); ++i)
-		{
-			UserListScroll->UserScrollBox->RemoveChild(UserListWidgets[i]);
-		}
-		UserListWidgets.Reset();
-		//새로운 정보를 붙이기 전에 기존 정보를 전부 제거합니다.
-
-		for (int i = 1; i < UserList.size(); ++i)
-		{
-			UserListWidgets.Add(CreateWidget(GetWorld(), User->UserInfoWidgetClass));
-			auto newUserInfo = Cast<UUserInfoWidget>(UserListWidgets.Top());
-			if (newUserInfo)
-			{
-				newUserInfo->UserInfoText->SetText(FText::FromString(UserList[i].c_str()));
-				UserListScroll->UserScrollBox->AddChild(newUserInfo);
-			}
-		}
-		//0번 인덱스는 ------UserList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
+		return;
 	}
+	for (int i = 0; i < UserListWidgets.Num(); ++i)
+	{
+		UserListScroll->UserScrollBox->RemoveChild(UserListWidgets[i]);
+	}
+	UserListWidgets.Reset();
+	//새로운 정보를 붙이기 전에 기존 정보를 전부 제거합니다.
+
+	for (int i = 1; i < UserList.size(); ++i)
+	{
+		UserListWidgets.Add(CreateWidget(GetWorld(), User->UserInfoWidgetClass));
+		auto newUserInfo = Cast<UUserInfoWidget>(UserListWidgets.Top());
+		if (newUserInfo)
+		{
+			newUserInfo->UserInfoText->SetText(FText::FromString(UserList[i].c_str()));
+			UserListScroll->UserScrollBox->AddChild(newUserInfo);
+		}
+	}
+	//0번 인덱스는 ------UserList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
 }
 
 void ULobbyWidget::ShowUserSpecificInfo(const std::vector<std::string>& UserList)
@@ -135,34 +151,38 @@ void ULobbyWidget::ShowUserSpecificInfo(const std::vector<std::string>& UserList
 	{
 		auto specificInfoWidget = Cast<UUserSpecificInfoWindowWidget>
 			(CreateWidget(GetWorld(), User->UserSpecificInfoWindowWidgetClass));
-		specificInfoWidget->InfoText->SetText(FText::FromString(UserList[1].c_str()));
-		specificInfoWidget->AddToViewport();
+		if (specificInfoWidget)
+		{
+			specificInfoWidget->InfoText->SetText(FText::FromString(UserList[1].c_str()));
+			specificInfoWidget->AddToViewport();
+		}
 	}
 }
 
 void ULobbyWidget::ShowRoomList(const std::vector<std::string>& RoomList)
 {
-	if (User)
+	if (!User || !RoomListScroll)
 	{
-		for (int i = 0; i < RoomListWidgets.Num(); ++i)
-		{
-			RoomListScroll->UserScrollBox->RemoveChild(RoomListWidgets[i]);
-		}
-		RoomListWidgets.Reset();
-		//새로운 정보를 붙이기 전에 기존 정보를 전부 제거합니다.
-
-		for (int i = 1; i < RoomList.size(); ++i)
-		{
-			RoomListWidgets.Add(CreateWidget(GetWorld(), User->RoomInfoWidgetClass));
-			auto newRoomInfo = Cast<URoomInfoWidget>(RoomListWidgets.Top());
-			if (newRoomInfo)
-			{
-				newRoomInfo->RoomInfoText->SetText(FText::FromString(RoomList[i].c_str()));
-				RoomListScroll->UserScrollBox->AddChild(newRoomInfo);
-			}
-		}
-		//0번 인덱스는 ------RoomList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
+		return;
 	}
+	for (int i = 0; i < RoomListWidgets.Num(); ++i)
+	{
+		RoomListScroll->UserScrollBox->RemoveChild(RoomListWidgets[i]);
+	}
+	RoomListWidgets.Reset();
+	//새로운 정보를 붙이기 전에 기존 정보를 전부 제거합니다.
+
+	for (int i = 1; i < RoomList.size(); ++i)
+	{
+		RoomListWidgets.Add(CreateWidget(GetWorld(), User->RoomInfoWidgetClass));
+		auto newRoomInfo = Cast<URoomInfoWidget>(RoomListWidgets.Top());
+		if (newRoomInfo)
+		{
+			newRoomInfo->RoomInfoText->SetText(FText::FromString(RoomList[i].c_str()));
+			RoomListScroll->UserScrollBox->AddChild(newRoomInfo);
+		}
+	}
+	//0번 인덱스는 ------RoomList------라는 텔넷에서 보여주는 용도로 사용되는 문자열이라 여기선 포함하지않습니다
 }
 
 void ULobbyWidget::ShowRoomSpecificInfo(const std::vector<std::string>& RoomList)
@@ -177,39 +197,60 @@ void ULobbyWidget::ShowRoomSpecificInfo(const std::vector<std::string>& RoomList
 		}
 		auto specificInfoWidget = Cast<UUserSpecificInfoWindowWidget>
 			(CreateWidget(GetWorld(), User->UserSpecificInfoWindowWidgetClass, TEXT("RoomSpecificInfo")));
-		specificInfoWidget->InfoText->SetText(FText::FromString(temp.c_str()));
-		specificInfoWidget->AddToViewport();
+		if (specificInfoWidget)
+		{
+			specificInfoWidget->InfoText->SetText(FText::FromString(temp.c_str()));
+			specificInfoWidget->AddToViewport();
+		}
 	}
 }
 
 void ULobbyWidget::AddChattingMsgToChattingWindow(const std::vector<std::string>& Chatting)
 {
-	ChattingWindow->AddNewChatting(Chatting.at(0));
+	if (ChattingWindow)
+	{
+		ChattingWindow->AddNewChatting(Chatting.at(0));
+	}
 }
 
 void ULobbyWidget::EraseAllChatting()
 {
-	ChattingWindow->EraseAllChatting();
+	if(ChattingWindow)
+	{
+		ChattingWindow->EraseAllChatting();
+	}
 }
 
 void ULobbyWidget::GoToLobby()
 {
-	LobbyWidgetSwitcher->SetActiveWidget(LOBBY_INDEX);
+	if (LobbyWidgetSwitcher)
+	{
+		LobbyWidgetSwitcher->SetActiveWidget(LOBBY_INDEX);
+	}
 }
 
 void ULobbyWidget::ShowExitButton()
 {
-	ExitButton->SetVisibility(ESlateVisibility::Visible);
+	if (ExitButton)
+	{
+		ExitButton->SetVisibility(ESlateVisibility::Visible);
+	}
 }
 
 void ULobbyWidget::HideExitButton()
 {
-	ExitButton->SetVisibility(ESlateVisibility::Hidden);
+	if (ExitButton)
+	{
+		ExitButton->SetVisibility(ESlateVisibility::Hidden);
+	}
 }
 
 void ULobbyWidget::ShowWarningMsg(const FString& Msg)
 {
-	WarningMsg->SetVisibility(ESlateVisibility::Visible);
-	WarningMsg->Msg->SetText(FText::FromString(Msg));
-	WarningMsg->PlayAnimation(WarningMsg->FadeOut);
+	if (WarningMsg)
+	{
+		WarningMsg->SetVisibility(ESlateVisibility::Visible);
+		WarningMsg->Msg->SetText(FText::FromString(Msg));
+		WarningMsg->PlayAnimation(WarningMsg->FadeOut);
+	}
 }

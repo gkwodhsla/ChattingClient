@@ -79,17 +79,18 @@ AUser::AUser()
 void AUser::BeginPlay()
 {
 	Super::BeginPlay();
-	if (LoginWidget)
+	if (!LoginWidget)
 	{
-		auto playerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
-		if (IsValid(playerController))
-		{
-			FInputModeUIOnly mode;
-			playerController->SetInputMode(mode);
-			playerController->SetShowMouseCursor(true);
-		}
-		LoginWidget->AddToViewport();
+		return;
 	}
+	auto playerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	if (IsValid(playerController))
+	{
+		FInputModeUIOnly mode;
+		playerController->SetInputMode(mode);
+		playerController->SetShowMouseCursor(true);
+	}
+	LoginWidget->AddToViewport();
 }
 
 // Called every frame

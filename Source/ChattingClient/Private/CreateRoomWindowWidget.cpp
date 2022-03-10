@@ -50,4 +50,13 @@ void UCreateRoomWindowWidget::CreateButtonClickedCallback()
 	{
 		User->ShowWarningMsg("Before Creating new room first <quit room>");
 	}
+
+	if (ParticipantsTextBox)
+	{
+		ParticipantsTextBox->SetText(FText::FromString(""));
+	}
+	if (RoomNameTextBox)
+	{
+		RoomNameTextBox->SetText(FText::FromString(""));
+	}
 }

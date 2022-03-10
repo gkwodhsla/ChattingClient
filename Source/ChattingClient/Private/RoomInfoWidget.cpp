@@ -26,19 +26,20 @@ void URoomInfoWidget::NativeConstruct()
 
 void URoomInfoWidget::SpecificInfoButtonClickedCallback()
 {
-	if (User)
+	if (!User)
 	{
-		FText roomInfo = RoomInfoText->GetText();
+		return;
+	}
+	FText roomInfo = RoomInfoText->GetText();
 
-		auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*roomInfo.ToString()), ' ');
-		if (tokens.size() > 0)
-		{
-			FString msgToSend = ROOM_SPECIFIC_INFO_REQ_COMMAND;
-			msgToSend.AppendChar(tokens[0][1]); //->방 인덱스 번호입니다. tokens[0]은 [방 번호]<-이렇게 구성되어있습니다.
-			msgToSend.AppendChar('\0');
-			//스트링으로 변환하고 파싱한 다음에 방 인덱스 번호를 붙여줍니다.
-			User->SendMsg(msgToSend);
-		}
+	auto tokens = USocketComponent::Tokenizing(TCHAR_TO_UTF8(*roomInfo.ToString()), ' ');
+	if (tokens.size() > 0)
+	{
+		FString msgToSend = ROOM_SPECIFIC_INFO_REQ_COMMAND;
+		msgToSend.AppendChar(tokens[0][1]); //->방 인덱스 번호입니다. tokens[0]은 [방 번호]<-이렇게 구성되어있습니다.
+		msgToSend.AppendChar('\0');
+		//스트링으로 변환하고 파싱한 다음에 방 인덱스 번호를 붙여줍니다.
+		User->SendMsg(msgToSend);
 	}
 }
 
